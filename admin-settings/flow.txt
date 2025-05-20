@@ -1,0 +1,145 @@
+1. 1st we have to create a basic plugin(admin-settings.php)
+2. npm init -y
+3. npm i
+4. create a root director admin.js file 
+5. create a assets floder and assets folder into build floder
+7. npm install @wordpress/scripts --save-dev  https://developer.wordpress.org/block-editor/reference-guides/packages/packages-scripts/#start
+8. package.json file a {scripts} a //"start": "wp-scripts start admin.js --output-path=assets/build"// enclod here korte hobe.
+9. admin-settings.php file a basic structure create 
+<?php
+
+/*
+* Plugin Name: Admin Settings
+* Version: 1.0.0
+* Author: bPlugins
+* Description: Self hosted Plugin
+* Text Domain: admin-settings
+*/
+if( !defined('ABSPATH') ){ exit;} এই কনস্ট্যান্টটা WordPress core-এ থাকে by defulte ।  atar kaj hosche সরাসরি স্ক্রিপ্ট এক্সেস বন্ধ করে/ প্লাগিন/থিম ফাইল হ্যাকিং থেকে সুরক্ষা দেয় / WordPress ছাড়া স্ক্রিপ্ট চালানো আটকায়.
+
+class BPAS_Admin_Settings {
+    
+} 
+✅ Step 1: ক্লাস তৈরি করা হচ্ছে
+এটি একটি ক্লাস, যেটি ওয়ার্ডপ্রেস অ্যাডমিন মেনুতে কাস্টম পেজ যোগ করার জন্য তৈরি হয়েছে।
+
+✅ Step 2: Constructor method চালু হচ্ছে
+public function __construct() {
+    add_action( 'admin_menu', array($this, 'register_my_custom_menu_page') );
+   add_action( 'admin_enqueue_scripts', array($this, 'admin_enqueue_scripts_callback') );
+}  
+👉 যখন তুমি এই ক্লাসের একটা ইনস্ট্যান্স তৈরি করো, তখন __construct() অটো রান হয়।🔹 add_action() ফাংশনটি admin_menu হুক-এ register_my_custom_menu_page() মেথডটি অ্যাড করছে।মানে: WordPress যখন admin menu লোড করে, তখন সে এই ক্লাসের register_my_custom_menu_page() ফাংশনটি চালাবে।
+
+add_action( 'admin_menu', array($this, 'register_my_custom_menu_page') );
+
+👉 এই ফাংশনের অর্থ হলো: যখন admin_menu হুক ট্রিগার হবে,(ata wp aer hook tai ata change hobe na) তখন $this->register_my_custom_menu_page() ফাংশনটি কল হবে। function name tumi tmr moto dite paro
+
+
+add_action( 'admin_enqueue_scripts', array($this, 'admin_enqueue_scripts_callback') );
+
+admin_enqueue_scripts হুক WordPress-এ অ্যাডমিন প্যানেলে CSS/JS ফাইল লোড করার জন্য ব্যবহার করা হয়।
+admin_enqueue_scripts হুক ব্যবহার করে ami  WordPress Admin প্যানেলে JavaScript ও CSS ফাইল enqueue করতে pari।
+এটা অ্যাডমিন এরিয়ার জন্য নির্দিষ্ট হুক, আর $hook_suffix দিয়ে চেক করা যায় কোন পেজে লোড হবে।
+
+✅ Step 3: register_my_custom_menu_page() method চালানো হয়
+
+public function register_my_custom_menu_page() {
+    add_menu_page(
+        'Admin Settings',              //'Admin Settings' (Page Title)এটি ব্রাউজারের ট্যাবে এবং পেজের হেডিং-এ দেখা যাবে যখন ইউজার পেজে ঢুকবে।
+        'Admin Settings Page',         // 'Admin Settings Page' (Menu Title)এটি WordPress Admin Sidebar মেনুতে দেখা যাবে।
+        'manage_options',              // কে দেখতে পারবে (capability)
+        'admin-settings',              // menu_slug  তুমি এটা ইচ্ছামতো দিতে পারো
+        array($this, 'admin_settings_callback'), // callback function (পেজের HTML দেখাবে)
+        'dashicons-welcome-widgets-menus', // আইকন
+        90                             // মেনু পজিশন
+    );
+}
+🔸 WordPress-এ admin মেনুতে একটি নতুন অপশন যোগ করে: Admin Settings Page
+🔸 সেই পেজে গেলে WordPress এই method চালাবে:
+
+public function admin_enqueue_scripts_callback( $screen ){  
+         if ($screen === "toplevel_page_admin-settings" ){
+            $adminAssets = require plugin_dir_path( __FILE__ ) . 'assets/build/admin.asset.php';
+             wp_enqueue_script('bpas_admin_settings', plugin_dir_url( __FILE__ ) . 'assets/build/admin.js', $adminAssets['dependencies'],  $adminAssets['version'], array('in_footer' => true)); 
+         }
+
+         wp_localize_script( 'bpas_admin_settings', 'bpasAdminSetting',
+		    array( 
+			    'ajax_url' => admin_url( 'admin-ajax.php' ),
+			    'nonce' => wp_create_nonce('bpas_admin_settings_nonce')
+		    )
+	    );
+}
+তুমি $screen এর পরিবর্তে $admin নাম ব্যবহার করতে পারো, কারণ প্যারামিটারটির নাম তুমি ইচ্ছামতো বদলাতে পারো।
+echo $screen; korle amra toplevel_page_'admin-settings', // menu_slug name ta dekte parbo
+
+$adminAssets = require plugin_dir_path( __FILE__ ) . 'assets/build/admin.asset.php';
+
+assets/build/admin.asset.php  file ta  require plugin_dir_path( __FILE__ ) . kore akta varible a rakteci 
+
+ wp_enqueue_script('bpas_admin_settings', plugin_dir_url( __FILE__ ) . 'assets/build/admin.js', $adminAssets['dependencies'],  $adminAssets['version'], array('in_footer' => true)); 
+
+$handle	স্ক্রিপ্টের ইউনিক নাম (যেমন: 'bpas_admin_settings /my-script') nijer moto kore
+$src	স্ক্রিপ্ট ফাইলের URL (যেমন: 'plugin_dir_url( __FILE__ ) . "assets/js/script.js"')
+$deps	(ঐচ্ছিক) কোন কোন স্ক্রিপ্টের উপর নির্ভর করে (যেমন: array('jquery'))
+$ver	(ঐচ্ছিক) স্ক্রিপ্টের ভার্সন, যাতে ব্রাউজার ক্যাশে কন্ট্রোল করা যায়
+$in_footer	স্ক্রিপ্ট হেডে নাকি ফুটারে লোড হবে (true হলে footer-এ)
+
+wp_enqueue_script(
+    'my-script',
+    plugin_dir_url( __FILE__ ) . 'assets/js/myscript.js',
+    array(),         // কোনো dependency নেই
+    '1.0.0',         // version
+    true             // ফুটারে লোড করো
+);
+
+wp_localize_script( 'bpas_admin_settings', 'bpasAdminSetting',
+	array( 
+		 'ajax_url' => admin_url( 'admin-ajax.php' ),
+			'nonce' => wp_create_nonce('bpas_admin_settings_nonce')
+		)
+    )
+
+wp_localize_script() হলো WordPress-এর একটি খুব কাজের ফাংশন, যার মাধ্যমে amra JavaScript ফাইলের ভেতরে PHP থেকে ডেটা পাঠাতে pari।
+মূলত এটা স্ক্রিপ্টে JavaScript object তৈরি করে দেয়, যাতে তুমি PHP ডেটা JS থেকে access করতে পারো।
+
+(bpas_admin_settings) name ta wp_enqueue_script a jeta dibo setai hobe akne 
+'bpasAdminSetting',  ata ami nijer moto kore nite pari 
+ 'ajax_url' => admin_url( 'admin-ajax.php' ),  ata kono change hobe na
+ 'nonce' => wp_create_nonce('bpas_admin_settings_nonce')  'bpas_admin_settings_nonce' ata nijer moto kore nite pari
+
+
+✅ Step 4: callback Function:
+public function admin_settings_callback(){
+        echo "<div id='bp-admin-settings'></div>";
+}
+এতে যখন তুমি সেই মেনু আইটেমে ক্লিক করো, তখন এই HTML দেখাবে।
+
+✅ Step 5: ক্লাস চালু করো
+new BPAS_Admin_Settings();
+
+
+10. npm i react-router-dom
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+class BPAS_Admin_Settings {
+    ...
+} 
+ক্লাসের নাম যেকোনো কিছু রাখতে pari  tobe এখানে BPAS_ prefix দিলে নিশ্চিত হওয়া যায়, এই ক্লাস নাম অন্য কেউ আগে ব্যবহার করেনি। ✅ WordPress Coding Standard অনুসারে:
+CamelCase নাম ব্যবহার করো (প্রতিটা শব্দের প্রথম অক্ষর বড়)
+
+Prefix ব্যবহার করো (প্লাগিন বা কোম্পানির নাম দিয়ে)
+
+
+
+Public কি?
+public হল PHP-র একটি visibility modifier — যা বলে দেয় কোথা থেকে কোন method বা property অ্যাক্সেস করা যাবে।
+
+⚙️ PHP-তে ৩ ধরনের visibility থাকে:
+ধরন	কোথা থেকে অ্যাক্সেস করা যায়
+public	যেকোনো জায়গা থেকে
+protected	কেবল সেই ক্লাস বা তার child/subclass থেকে
+private	কেবল সেই ক্লাসের ভিতর থেকে
+

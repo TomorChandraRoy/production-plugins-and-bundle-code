@@ -1,0 +1,605 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "bmpc/minimal-pricing-card",
+  "version": "1.0.0",
+  "title": "Minimal Pricing Card",
+  "category": "widgets",
+  "description": "Easily showcase your pricing plans with the Gutenberg Pricing Block.  it helps you present your products or services clearly and attractively on your WordPress site.",
+  "keywords": [
+    "pricing block",
+    "minimal-pricing-card",
+    "pricing table",
+    "pricing plans",
+    "pricing",
+    "pricing card",
+    "pricing section",
+    "price"
+  ],
+  "textdomain": "b-pricing-card",
+  "attributes": {
+    "alignment": {
+      "type": "string",
+      "default": "center"
+    },
+    "themeStyle": {
+      "type": "string",
+      "default": "style-1"
+    },
+    "colorToggle": {
+      "type": "boolean",
+      "default": true
+    },
+    "MinimalPriceHeaderData": {
+      "type": "object",
+      "default": {
+        "title": "Pricing Plans for Every Need",
+        "dec": "Choose the perfect plan for your business. All plans include a 30-day money-back guarantee."
+      }
+    },
+    "MinimalPriceCardData": {
+      "type": "array",
+      "default": [
+        {
+          "name": "Free",
+          "highlighted": false,
+          "highlightText": "POPULAR",
+          "currency": "$",
+          "price": "0",
+          "description": "For individuals just getting started",
+          "buttonText": "Get Started",
+          "period": "/month",
+          "buttonLink": "https://bplugins.com/",
+          "buttonNewTab": false,
+          "features": [
+            {
+              "title": "1 user",
+              "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path  d=\"M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z\"/></svg>",
+              "iconColor": "#53df55"
+            },
+            {
+              "title": "5GB storage",
+              "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path  d=\"M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z\"/></svg>",
+              "iconColor": "#53df55"
+            },
+            {
+              "title": "Community support",
+              "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path  d=\"M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z\"/></svg>",
+              "iconColor": "#53df55"
+            }
+          ]
+        },
+        {
+          "name": "Starter",
+          "highlightText": "POPULAR",
+          "highlighted": false,
+          "id": true,
+          "currency": "$",
+          "price": "12",
+          "period": "/month",
+          "description": "For individuals just getting started",
+          "buttonText": "Get Started",
+          "buttonLink": "https://bplugins.com/products/",
+          "buttonNewTab": false,
+          "features": [
+            {
+              "title": "Up to 5 users",
+              "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path  d=\"M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z\"/></svg>",
+              "iconColor": "#53df55"
+            },
+            {
+              "title": "20GB storage",
+              "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path  d=\"M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z\"/></svg>",
+              "iconColor": "#53df55"
+            },
+            {
+              "title": "Email support",
+              "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path  d=\"M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z\"/></svg>",
+              "iconColor": "#53df55"
+            },
+            {
+              "title": "Basic analytics",
+              "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path  d=\"M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z\"/></svg>",
+              "iconColor": "#53df55"
+            }
+          ]
+        },
+        {
+          "highlightText": "POPULAR",
+          "highlighted": true,
+          "name": "Professional",
+          "id": true,
+          "currency": "$",
+          "price": "29",
+          "period": "/month",
+          "description": "For growing teams and businesses",
+          "buttonText": "Get Started",
+          "buttonLink": "https://bplugins.com/services/",
+          "buttonNewTab": false,
+          "features": [
+            {
+              "title": "Up to 20 users",
+              "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path  d=\"M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z\"/></svg>",
+              "iconColor": "#53df55"
+            },
+            {
+              "title": "100GB storage",
+              "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path  d=\"M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z\"/></svg>",
+              "iconColor": "#53df55"
+            },
+            {
+              "title": "Priority support",
+              "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path  d=\"M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z\"/></svg>",
+              "iconColor": "#53df55"
+            },
+            {
+              "title": "Custom integrations",
+              "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path  d=\"M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z\"/></svg>",
+              "iconColor": "#53df55"
+            }
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "highlightText": "POPULAR",
+          "highlighted": false,
+          "currency": "$",
+          "price": "99",
+          "period": "/month",
+          "description": "For large organizations and teams",
+          "buttonText": "Contact Sales",
+          "buttonLink": "https://bplugins.com/pricing/",
+          "buttonNewTab": false,
+          "features": [
+            {
+              "title": "Unlimited users",
+              "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path  d=\"M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z\"/></svg>",
+              "iconColor": "#53df55"
+            },
+            {
+              "title": "1TB storage",
+              "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path  d=\"M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z\"/></svg>",
+              "iconColor": "#53df55"
+            },
+            {
+              "title": "24/7 phone support",
+              "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path  d=\"M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z\"/></svg>",
+              "iconColor": "#53df55"
+            },
+            {
+              "title": "Advanced analytics",
+              "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path  d=\"M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z\"/></svg>",
+              "iconColor": "#53df55"
+            },
+            {
+              "title": "Custom integrations",
+              "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path  d=\"M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z\"/></svg>",
+              "iconColor": "#53df55"
+            },
+            {
+              "title": "Dedicated account manager",
+              "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path  d=\"M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z\"/></svg>",
+              "iconColor": "#53df55"
+            }
+          ]
+        }
+      ]
+    },
+    "style": {
+      "type": "object",
+      "default": {
+        "iconGobalColor": "#53df55",
+        "columns": {
+          "desktop": 4,
+          "tablet": 2,
+          "mobile": 1
+        },
+        "columnGap": "24px",
+        "headerStyle": {
+          "titleStyle": {
+            "typo": {
+              "fontFamily": "Manrope",
+              "fontCategory": "sans-serif",
+              "fontWeight": 800,
+              "fontSize": {
+                "desktop": 48,
+                "tablet": 45,
+                "mobile": 40
+              },
+              "fontStyle": "normal",
+              "textTransform": "none",
+              "textDecoration": "auto",
+              "lineHeight": "54px",
+              "letterSpace": "0px"
+            },
+            "color": "#111827"
+          },
+          "desStyle": {
+            "desTypo": {
+              "fontFamily": "Manrope",
+              "fontCategory": "sans-serif",
+              "fontWeight": 400,
+              "fontSize": {
+                "desktop": 20,
+                "tablet": 19,
+                "mobile": 18
+              },
+              "fontStyle": "normal",
+              "textTransform": "none",
+              "textDecoration": "auto",
+              "lineHeight": "25px",
+              "letterSpace": "0px"
+            },
+            "desColor": "#8a8f95"
+          }
+        },
+        "priceCardStyle": {
+          "priceCardBackgroundColor": "rgba(255, 255, 255, 1)",
+          "cardRadius": {
+            "top": "8px",
+            "right": "8px",
+            "bottom": "8px",
+            "left": "8px"
+          },
+          "cardPadding": {
+            "desktop": {
+              "top": "20px",
+              "right": "24px",
+              "bottom": "20px",
+              "left": "24px"
+            },
+            "tablet": {
+              "top": "20px",
+              "right": "24px",
+              "bottom": "20px",
+              "left": "24px"
+            },
+            "mobile": {
+              "top": "20px",
+              "right": "24px",
+              "bottom": "20px",
+              "left": "24px"
+            }
+          },
+          "borderColor": "#e5e7eb",
+          "borderWidth": "1px",
+          "shadow": [
+            {
+              "hOffset": "0px",
+              "vOffset": "1px",
+              "blur": "3px",
+              "spreed": "-9px",
+              "color": "rgba(0, 0, 0, 0.1)",
+              "isInset": false
+            }
+          ],
+          "propularBorderColor": "#111827",
+          "propularWidth": "2px",
+          "propularShadow": [
+            {
+              "hOffset": "0px",
+              "vOffset": "4px",
+              "blur": "6px",
+              "spreed": "-9px",
+              "color": "rgba(0, 0, 0, 0.1)",
+              "isInset": false
+            }
+          ],
+          "hightlightStyle": {
+            "bgColor": "#111827",
+            "color": "white",
+            "padding": {
+              "desktop": {
+                "top": "4px",
+                "right": "12px",
+                "bottom": "4px",
+                "left": "12px"
+              },
+              "tablet": {
+                "top": "14px",
+                "right": "12px",
+                "bottom": "4px",
+                "left": "12px"
+              },
+              "mobile": {
+                "top": "4px",
+                "right": "12px",
+                "bottom": "4px",
+                "left": "12px"
+              }
+            },
+            "hightLightRadius": {
+              "top": "4px",
+              "right": "4px",
+              "bottom": "4px",
+              "left": "4px"
+            },
+            "hightLightTypo": {
+              "fontFamily": "Manrope",
+              "fontCategory": "sans-serif",
+              "fontWeight": 700,
+              "fontSize": {
+                "desktop": 12,
+                "tablet": 12,
+                "mobile": 12
+              },
+              "fontStyle": "normal",
+              "textTransform": "none",
+              "textDecoration": "auto",
+              "lineHeight": "25px",
+              "letterSpace": "0px"
+            }
+          },
+          "CardTitleTypo": {
+            "fontFamily": "Manrope",
+            "fontCategory": "sans-serif",
+            "fontWeight": 600,
+            "fontSize": {
+              "desktop": 25,
+              "tablet": 25,
+              "mobile": 25
+            },
+            "fontStyle": "normal",
+            "textTransform": "none",
+            "textDecoration": "auto",
+            "lineHeight": "30px",
+            "letterSpace": "0px"
+          },
+          "cardTitleColor": "#111827",
+          "cardMargin": {
+            "desktop": {
+              "top": "0",
+              "right": "0",
+              "bottom": "16px",
+              "left": "0"
+            },
+            "tablet": {
+              "top": "0",
+              "right": "0",
+              "bottom": "16px",
+              "left": "0"
+            },
+            "mobile": {
+              "top": "0",
+              "right": "0",
+              "bottom": "16px",
+              "left": "0"
+            }
+          },
+          "CardAmountTypo": {
+            "fontFamily": "Manrope",
+            "fontCategory": "sans-serif",
+            "fontWeight": 800,
+            "fontSize": {
+              "desktop": 36,
+              "tablet": 36,
+              "mobile": 36
+            },
+            "fontStyle": "normal",
+            "textTransform": "none",
+            "textDecoration": "auto",
+            "lineHeight": "30px",
+            "letterSpace": "0px"
+          },
+          "cardAmountColor": "#111827",
+          "CardPeriodTypo": {
+            "fontFamily": "Manrope",
+            "fontCategory": "sans-serif",
+            "fontWeight": 100,
+            "fontSize": {
+              "desktop": 22,
+              "tablet": 22,
+              "mobile": 22
+            },
+            "fontStyle": "normal",
+            "textTransform": "none",
+            "textDecoration": "auto",
+            "lineHeight": "30px",
+            "letterSpace": "0px"
+          },
+          "cardPeriodColor": "#6b7280",
+          "cardPeriodMargin": {
+            "desktop": {
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "5px"
+            },
+            "tablet": {
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "5px"
+            },
+            "mobile": {
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "5px"
+            }
+          },
+          "CardDesTypo": {
+            "fontFamily": "Manrope",
+            "fontCategory": "sans-serif",
+            "fontWeight": 100,
+            "fontSize": {
+              "desktop": 20,
+              "tablet": 20,
+              "mobile": 20
+            },
+            "fontStyle": "normal",
+            "textTransform": "none",
+            "textDecoration": "auto",
+            "lineHeight": "30px",
+            "letterSpace": "0px"
+          },
+          "cardDesColor": "#4b5563",
+          "cardDesMargin": {
+            "desktop": {
+              "top": "0",
+              "right": "0",
+              "bottom": "16px",
+              "left": "0"
+            },
+            "tablet": {
+              "top": "0",
+              "right": "0",
+              "bottom": "16px",
+              "left": "0"
+            },
+            "mobile": {
+              "top": "0",
+              "right": "0",
+              "bottom": "16px",
+              "left": "0"
+            }
+          },
+          "cardButtonTypo": {
+            "fontFamily": "Manrope",
+            "fontCategory": "sans-serif",
+            "fontWeight": 500,
+            "fontSize": {
+              "desktop": 22,
+              "tablet": 22,
+              "mobile": 22
+            },
+            "fontStyle": "normal",
+            "textTransform": "none",
+            "textDecoration": "auto",
+            "lineHeight": "30px",
+            "letterSpace": "0px"
+          },
+          "cardButtonColor": "#111827",
+          "cardButtonBGColor": "transparent",
+          "cardButtonBGHoverColor": "#f9fafb",
+          "cardButtonHightlightColor": "white",
+          "cardButtonHightlightBackgroundColor": "#111827",
+          "cardButtonHightlightBgHoverColor": "#1f2937",
+          "cardButtonRadius": {
+            "top": "6px",
+            "right": "6px",
+            "bottom": "6px",
+            "left": "6px"
+          },
+          "cardButtonPadding": {
+            "desktop": {
+              "top": "10px",
+              "right": "16px",
+              "bottom": "10px",
+              "left": "16px"
+            },
+            "tablet": {
+              "top": "10px",
+              "right": "16",
+              "bottom": "10px",
+              "left": "16px"
+            },
+            "mobile": {
+              "top": "10px",
+              "right": "16",
+              "bottom": "10px",
+              "left": "16px"
+            }
+          },
+          "priceFeatures": {
+            "featuresPadding": {
+              "desktop": {
+                "top": "0px",
+                "right": "24px",
+                "bottom": "20px",
+                "left": "24px"
+              },
+              "tablet": {
+                "top": "0px",
+                "right": "24px",
+                "bottom": "20px",
+                "left": "24px"
+              },
+              "mobile": {
+                "top": "0px",
+                "right": "24px",
+                "bottom": "20px",
+                "left": "24px"
+              }
+            },
+            "featuresTypo": {
+              "fontFamily": "Manrope",
+              "fontCategory": "sans-serif",
+              "fontWeight": 100,
+              "fontSize": {
+                "desktop": 19,
+                "tablet": 19,
+                "mobile": 19
+              },
+              "fontStyle": "normal",
+              "textTransform": "none",
+              "textDecoration": "auto",
+              "lineHeight": "30px",
+              "letterSpace": "0px"
+            },
+            "featuresMargin": {
+              "desktop": {
+                "top": "0px",
+                "right": "0px",
+                "bottom": "8px",
+                "left": "0px"
+              },
+              "tablet": {
+                "top": "0px",
+                "right": "0px",
+                "bottom": "8px",
+                "left": "0px"
+              },
+              "mobile": {
+                "top": "0px",
+                "right": "0px",
+                "bottom": "8px",
+                "left": "0px"
+              }
+            },
+            "iconWidth": "20px",
+            "iconMargin": {
+              "desktop": {
+                "top": "6px",
+                "right": "8px",
+                "bottom": "0px",
+                "left": "0px"
+              },
+              "tablet": {
+                "top": "6px",
+                "right": "8px",
+                "bottom": "0px",
+                "left": "0px"
+              },
+              "mobile": {
+                "top": "6px",
+                "right": "8px",
+                "bottom": "0px",
+                "left": "0px"
+              }
+            }
+          }
+        }
+      }
+    },
+    "align": {
+      "type": "string",
+      "default": "full"
+    }
+  },
+  "supports": {
+    "align": [
+      "wide",
+      "full"
+    ],
+    "html": false
+  },
+  "example": {
+    "attributes": {}
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./view.css",
+  "render": "file:./render.php",
+  "viewScript": "file:./view.js"
+}

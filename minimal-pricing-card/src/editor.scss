@@ -1,0 +1,28 @@
+$primaryColor: #4527a4;
+
+.bBlocksInspectorInfo {
+	padding: 6px;
+
+	a {
+		text-decoration: none;
+		font-weight: 700;
+	}
+}
+
+.wp-block-bmpc-minimal-pricing-card{
+	.button-wrapper {
+	  width: 100%;
+	  background-color: #4527a4;
+	}
+	.addButton {
+	 width: 100%;
+	 text-align: center;
+	 display: block;
+	 color: aliceblue;
+	font-size: 14px; 
+	}
+
+	.selectHelp{
+		color: #616063;
+	}
+}
