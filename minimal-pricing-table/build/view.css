@@ -1,0 +1,112 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+.wp-block-bmpt-minimal-pricing-table {
+  box-sizing: border-box;
+}
+.wp-block-bmpt-minimal-pricing-table * {
+  box-sizing: border-box;
+  margin: 0;
+}
+.wp-block-bmpt-minimal-pricing-table .bBlocksPriceCardContent {
+  /* Pricing Section Styles */
+}
+.wp-block-bmpt-minimal-pricing-table .bBlocksPriceCardContent .pricing-container {
+  min-height: 100vh;
+  background-color: white;
+  padding: 16px;
+  /* Add a wider layout option for larger screens */
+}
+.wp-block-bmpt-minimal-pricing-table .bBlocksPriceCardContent .pricing-container .pricing-wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+  /* Responsive Styles */
+}
+.wp-block-bmpt-minimal-pricing-table .bBlocksPriceCardContent .pricing-container .pricing-wrapper .pricing-header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+  /* Responsive Styles */
+}
+.wp-block-bmpt-minimal-pricing-table .bBlocksPriceCardContent .pricing-container .pricing-wrapper .pricing-header .pricing-h1 {
+  margin-bottom: 42px;
+}
+@media (min-width: 768px) {
+  .wp-block-bmpt-minimal-pricing-table .bBlocksPriceCardContent .pricing-container .pricing-wrapper .pricing-header .pricing-h1 {
+    font-size: 3rem;
+  }
+}
+.wp-block-bmpt-minimal-pricing-table .bBlocksPriceCardContent .pricing-container .pricing-wrapper .pricing-header .pricing-p {
+  max-width: 48rem;
+  margin: 0 auto;
+}
+.wp-block-bmpt-minimal-pricing-table .bBlocksPriceCardContent .pricing-container .pricing-wrapper .pricing-grid {
+  display: grid;
+  /* Card Styles */
+}
+.wp-block-bmpt-minimal-pricing-table .bBlocksPriceCardContent .pricing-container .pricing-wrapper .pricing-grid .pricing-card {
+  overflow: hidden;
+  position: relative;
+}
+.wp-block-bmpt-minimal-pricing-table .bBlocksPriceCardContent .pricing-container .pricing-wrapper .pricing-grid .pricing-card .popular-tag {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-bottom-left-radius: 0.25rem;
+}
+.wp-block-bmpt-minimal-pricing-table .bBlocksPriceCardContent .pricing-container .pricing-wrapper .pricing-grid .pricing-card .card-header {
+  /* Button Styles */
+}
+.wp-block-bmpt-minimal-pricing-table .bBlocksPriceCardContent .pricing-container .pricing-wrapper .pricing-grid .pricing-card .card-header .price {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 0.25rem;
+}
+.wp-block-bmpt-minimal-pricing-table .bBlocksPriceCardContent .pricing-container .pricing-wrapper .pricing-grid .pricing-card .card-header .link {
+  text-decoration: none;
+}
+.wp-block-bmpt-minimal-pricing-table .bBlocksPriceCardContent .pricing-container .pricing-wrapper .pricing-grid .pricing-card .card-header .btn {
+  display: block;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.wp-block-bmpt-minimal-pricing-table .bBlocksPriceCardContent .pricing-container .pricing-wrapper .pricing-grid .pricing-card .card-header .btn-primary {
+  border: none;
+}
+.wp-block-bmpt-minimal-pricing-table .bBlocksPriceCardContent .pricing-container .pricing-wrapper .pricing-grid .pricing-card .card-header .btn-outline {
+  outline: none;
+  border: 1px solid #d1d5db;
+}
+.wp-block-bmpt-minimal-pricing-table .bBlocksPriceCardContent .pricing-container .pricing-wrapper .pricing-grid .pricing-card .card-features .card-ui {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.wp-block-bmpt-minimal-pricing-table .bBlocksPriceCardContent .pricing-container .pricing-wrapper .pricing-grid .pricing-card .card-features .card-ui .card-li {
+  display: flex;
+  align-items: flex-start;
+}
+.wp-block-bmpt-minimal-pricing-table .bBlocksPriceCardContent .pricing-container .pricing-wrapper .pricing-grid .pricing-card .card-features .card-ui .card-li .icon {
+  flex-shrink: 0;
+}
+.wp-block-bmpt-minimal-pricing-table .bBlocksPriceCardContent .pricing-container .pricing-wrapper .pricing-grid .pricing-card .card-features .card-ui .card-li .card-feature {
+  margin-top: 2px;
+}
+@media (min-width: 1024px) {
+  .wp-block-bmpt-minimal-pricing-table .bBlocksPriceCardContent .pricing-container .pricing-wrapper .pricing-grid {
+    gap: 1rem;
+  }
+}
+@media (min-width: 1280px) {
+  .wp-block-bmpt-minimal-pricing-table .bBlocksPriceCardContent .pricing-container .pricing-wrapper .pricing-grid {
+    gap: 20px;
+  }
+}
+@media (min-width: 1280px) {
+  .wp-block-bmpt-minimal-pricing-table .bBlocksPriceCardContent .pricing-container .pricing-wrapper {
+    max-width: 1600px;
+  }
+}
+
+/*# sourceMappingURL=view.css.map*/
