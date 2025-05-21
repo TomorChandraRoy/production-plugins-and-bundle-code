@@ -1295,7 +1295,7 @@ const MinimalPricingTable = ({
     className: "card-features"
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("ul", {
     className: "card-ui"
-  }, data?.features.map((feature, index) => (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", {
+  }, data?.features.map((feature, inx) => (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("li", {
     className: "card-li",
     key: index
   }, isEditor ? (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
@@ -1309,7 +1309,7 @@ const MinimalPricingTable = ({
     value: feature?.title,
     placeholder: "Enter Feature",
     onChange: vl => setAttributes({
-      MinimalPriceCardData: (0,_bpl_tools_utils_functions__WEBPACK_IMPORTED_MODULE_3__.updateData)(MinimalPriceCardData, vl, index, 'features', index, "title")
+      MinimalPriceCardData: (0,_bpl_tools_utils_functions__WEBPACK_IMPORTED_MODULE_3__.updateData)(MinimalPriceCardData, vl, index, 'features', inx, "title")
     }),
     allowedFormats: ['core/bold', 'core/italic', 'core/link', 'core/text-color']
   })) : (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, feature?.title && (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {

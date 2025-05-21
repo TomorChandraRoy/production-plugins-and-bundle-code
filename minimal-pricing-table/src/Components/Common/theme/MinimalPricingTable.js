@@ -140,22 +140,22 @@ export const MinimalPricingTable = ({ attributes, setAttributes }) => {
                                             )
                                         }
                                     </div>
+                                    {/* features */}
                                     <div className="card-features">
                                         <ul className="card-ui">
                                             {
-                                                data?.features.map((feature, index) => (
+                                                data?.features.map((feature, inx) => (
                                                     <>
                                                         <li className="card-li" key={index}>
                                                             {isEditor
                                                                 ?
                                                                 (
                                                                     <>
-
                                                                         <div className={`icon icon-${index}`} dangerouslySetInnerHTML={{ __html: feature.icon }} />
                                                                         <RichText className="card-feature" tagName="span"
                                                                             value={feature?.title}
                                                                             placeholder="Enter Feature"
-                                                                            onChange={vl => setAttributes({ MinimalPriceCardData: updateData(MinimalPriceCardData, vl, index, 'features', index, "title") })}
+                                                                            onChange={vl => setAttributes({ MinimalPriceCardData: updateData(MinimalPriceCardData, vl, index, 'features', inx, "title") })}
                                                                             allowedFormats={['core/bold', 'core/italic', 'core/link', 'core/text-color']} />
                                                                     </>
                                                                 )
