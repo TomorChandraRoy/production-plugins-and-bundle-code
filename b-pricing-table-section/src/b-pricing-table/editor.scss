@@ -1,0 +1,33 @@
+$primaryColor: #4527a4;
+
+.bPlPanelBody {
+	.editPriceFeature {
+		gap: 10px;
+
+		>div:nth-child(2) {
+			flex: 1;
+		}
+
+		.components-checkbox-control {
+			.components-checkbox-control__input-container {
+				margin-right: 0;
+			}
+		}
+
+		.removeItem {
+			color: red;
+			cursor: pointer;
+		}
+	}
+
+	.addFeature {
+		width: fit-content;
+		margin: 0 auto;
+
+		button {
+			height: auto;
+			width: auto;
+			padding: 7px 15px;
+		}
+	}
+}

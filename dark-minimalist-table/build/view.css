@@ -1,0 +1,183 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+.wp-block-bptb-dark-minimalist-table {
+  box-sizing: border-box;
+}
+.wp-block-bptb-dark-minimalist-table * {
+  box-sizing: border-box;
+}
+.wp-block-bptb-dark-minimalist-table .pTableDarkMinimalist .main-container .pricing-wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+.wp-block-bptb-dark-minimalist-table .pTableDarkMinimalist .main-container .pricing-wrapper .pricing-container {
+  padding: 37px;
+}
+.wp-block-bptb-dark-minimalist-table .pTableDarkMinimalist .main-container .pricing-wrapper .pricing-container .pricing-grid {
+  display: grid;
+  gap: 35px;
+  align-items: stretch;
+  /* Responsive Design */
+}
+.wp-block-bptb-dark-minimalist-table .pTableDarkMinimalist .main-container .pricing-wrapper .pricing-container .pricing-grid .pricing-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease;
+}
+.wp-block-bptb-dark-minimalist-table .pTableDarkMinimalist .main-container .pricing-wrapper .pricing-container .pricing-grid .pricing-card .card-header {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+}
+.wp-block-bptb-dark-minimalist-table .pTableDarkMinimalist .main-container .pricing-wrapper .pricing-container .pricing-grid .pricing-card .card-header .plan-name {
+  margin: 0px;
+}
+.wp-block-bptb-dark-minimalist-table .pTableDarkMinimalist .main-container .pricing-wrapper .pricing-container .pricing-grid .pricing-card .price-section {
+  position: relative;
+}
+.wp-block-bptb-dark-minimalist-table .pTableDarkMinimalist .main-container .pricing-wrapper .pricing-container .pricing-grid .pricing-card .price-section .price-container {
+  display: flex;
+  align-items: end;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.wp-block-bptb-dark-minimalist-table .pTableDarkMinimalist .main-container .pricing-wrapper .pricing-container .pricing-grid .pricing-card .price-section .price-container .price-currency {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.wp-block-bptb-dark-minimalist-table .pTableDarkMinimalist .main-container .pricing-wrapper .pricing-container .pricing-grid .pricing-card .price-section .price-container .price-currency .currency {
+  margin-top: 7px;
+  font-weight: bold;
+}
+.wp-block-bptb-dark-minimalist-table .pTableDarkMinimalist .main-container .pricing-wrapper .pricing-container .pricing-grid .pricing-card .description {
+  max-width: 352px;
+}
+.wp-block-bptb-dark-minimalist-table .pTableDarkMinimalist .main-container .pricing-wrapper .pricing-container .pricing-grid .pricing-card .features {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  flex-grow: 1;
+}
+.wp-block-bptb-dark-minimalist-table .pTableDarkMinimalist .main-container .pricing-wrapper .pricing-container .pricing-grid .pricing-card .features .feature {
+  display: flex;
+  align-items: center;
+}
+.wp-block-bptb-dark-minimalist-table .pTableDarkMinimalist .main-container .pricing-wrapper .pricing-container .pricing-grid .pricing-card .features .feature .check-icons svg {
+  flex-shrink: 0;
+  margin: 0;
+}
+.wp-block-bptb-dark-minimalist-table .pTableDarkMinimalist .main-container .pricing-wrapper .pricing-container .pricing-grid .pricing-card .buy-button {
+  width: 100%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  transition: all 0.7s ease;
+  margin-top: auto;
+  outline: none;
+  text-decoration: none;
+}
+.wp-block-bptb-dark-minimalist-table .pTableDarkMinimalist .main-container .pricing-wrapper .pricing-container .pricing-grid .pricing-card .buy-button .link-a {
+  text-decoration: none;
+  outline: none;
+}
+.wp-block-bptb-dark-minimalist-table .pTableDarkMinimalist .main-container .pricing-wrapper .pricing-container .pricing-grid .pricing-card .buy-button .arrow-icon svg {
+  vertical-align: middle;
+  transition: fill 0.7s ease;
+}
+@media (max-width: 767px) {
+  .wp-block-bptb-dark-minimalist-table .pTableDarkMinimalist .main-container .pricing-wrapper .pricing-container .pricing-grid .pricing-card {
+    padding: 1.5rem;
+  }
+}
+.wp-block-bptb-dark-minimalist-table .pTableDarkMinimalist .main-container .pricing-wrapper .pricing-container .pricing-grid .popular {
+  position: relative;
+  margin-top: -2rem;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease;
+}
+.wp-block-bptb-dark-minimalist-table .pTableDarkMinimalist .main-container .pricing-wrapper .pricing-container .pricing-grid .popular .popular-badge {
+  margin-left: auto;
+}
+.wp-block-bptb-dark-minimalist-table .pTableDarkMinimalist .main-container .pricing-wrapper .pricing-container .pricing-grid .popular .card-header {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+}
+.wp-block-bptb-dark-minimalist-table .pTableDarkMinimalist .main-container .pricing-wrapper .pricing-container .pricing-grid .popular .card-header .plan-name {
+  margin: 0px;
+}
+.wp-block-bptb-dark-minimalist-table .pTableDarkMinimalist .main-container .pricing-wrapper .pricing-container .pricing-grid .popular .price-section {
+  position: relative;
+}
+.wp-block-bptb-dark-minimalist-table .pTableDarkMinimalist .main-container .pricing-wrapper .pricing-container .pricing-grid .popular .price-section .price-container {
+  display: flex;
+  align-items: end;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.wp-block-bptb-dark-minimalist-table .pTableDarkMinimalist .main-container .pricing-wrapper .pricing-container .pricing-grid .popular .price-section .price-container .price-currency {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.wp-block-bptb-dark-minimalist-table .pTableDarkMinimalist .main-container .pricing-wrapper .pricing-container .pricing-grid .popular .price-section .price-container .price-currency .currency {
+  margin-top: 7px;
+  font-weight: bold;
+}
+.wp-block-bptb-dark-minimalist-table .pTableDarkMinimalist .main-container .pricing-wrapper .pricing-container .pricing-grid .popular .description {
+  max-width: 352px;
+}
+.wp-block-bptb-dark-minimalist-table .pTableDarkMinimalist .main-container .pricing-wrapper .pricing-container .pricing-grid .popular .features {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  flex-grow: 1;
+}
+.wp-block-bptb-dark-minimalist-table .pTableDarkMinimalist .main-container .pricing-wrapper .pricing-container .pricing-grid .popular .features .feature {
+  display: flex;
+  align-items: center;
+}
+.wp-block-bptb-dark-minimalist-table .pTableDarkMinimalist .main-container .pricing-wrapper .pricing-container .pricing-grid .popular .features .feature .check-icons svg {
+  flex-shrink: 0;
+  margin: 0;
+}
+.wp-block-bptb-dark-minimalist-table .pTableDarkMinimalist .main-container .pricing-wrapper .pricing-container .pricing-grid .popular .buy-button {
+  width: 100%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  transition: all 0.7s ease;
+  margin-top: auto;
+  outline: none;
+  text-decoration: none;
+}
+.wp-block-bptb-dark-minimalist-table .pTableDarkMinimalist .main-container .pricing-wrapper .pricing-container .pricing-grid .popular .buy-button .link-a {
+  text-decoration: none;
+  outline: none;
+}
+.wp-block-bptb-dark-minimalist-table .pTableDarkMinimalist .main-container .pricing-wrapper .pricing-container .pricing-grid .popular .buy-button .arrow-icon svg {
+  vertical-align: middle;
+  transition: fill 0.7s ease;
+}
+@media (max-width: 767px) {
+  .wp-block-bptb-dark-minimalist-table .pTableDarkMinimalist .main-container .pricing-wrapper .pricing-container .pricing-grid .popular {
+    padding: 1.5rem;
+  }
+}
+@media (max-width: 767px) {
+  .wp-block-bptb-dark-minimalist-table .pTableDarkMinimalist .main-container .pricing-wrapper .pricing-container {
+    padding: 1rem;
+  }
+}
+
+/*# sourceMappingURL=view.css.map*/

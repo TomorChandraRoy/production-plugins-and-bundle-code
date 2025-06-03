@@ -2,6 +2,206 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "../bpl-tools/Components/Mask/assets/shapes/blob.svg":
+/*!***********************************************************!*\
+  !*** ../bpl-tools/Components/Mask/assets/shapes/blob.svg ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   ReactComponent: () => (/* binding */ SvgBlob),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _path;
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+
+var SvgBlob = function SvgBlob(props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 121,
+    height: 89
+  }, props), _path || (_path = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+    d: "M100.016 7.397c-9.77-6.177-26.708-11.063-35.59-3.684-7.442 6.177-2.38 15.204-9.416 21.59-10.6 9.614-28.159-5.442-41.858 2.632C.676 35.255-4.28 59.149 4.278 73.798c13.137 22.524 53.13 13.854 61.194 12.106 4.5-.993 53.495-12.265 55.469-42.705.957-14.946-9.841-28.78-20.925-35.802"
+  })));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjEuMDAwMiIgaGVpZ2h0PSI4OSIgdmlld0JveD0iMCAwIDEyMS4wMDAyIDg5Ij48cGF0aCBkPSJNMTAwLjAxNiw3LjM5NzJDOTAuMjQ1MiwxLjIyLDczLjMwODQtMy42NjYzLDY0LjQyNTUsMy43MTI2LDU2Ljk4MzYsOS44OSw2Mi4wNDY5LDE4LjkxNzQsNTUuMDEsMjUuMzAzMmMtMTAuNiw5LjYxMzQtMjguMTU4OS01LjQ0MjMtNDEuODU4NCwyLjYzMThDLjY3NTcsMzUuMjU0My00LjI3OTEsNTkuMTQ4OSw0LjI3ODEsNzMuNzk3NWMxMy4xMzY5LDIyLjUyNCw1My4xMywxMy44NTQxLDYxLjE5MzYsMTIuMTA2MSw0LjUwMDctLjk5MzEsNTMuNDk1My0xMi4yNjUsNTUuNDY5My00Mi43MDQzQzEyMS44OTgsMjguMjUyOCwxMTEuMSwxNC40MTg1LDEwMC4wMTYsNy4zOTcyWiIvPjwvc3ZnPg==");
+
+/***/ }),
+
+/***/ "../bpl-tools/Components/Mask/assets/shapes/circle.svg":
+/*!*************************************************************!*\
+  !*** ../bpl-tools/Components/Mask/assets/shapes/circle.svg ***!
+  \*************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   ReactComponent: () => (/* binding */ SvgCircle),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _circle;
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+
+var SvgCircle = function SvgCircle(props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 89,
+    height: 89
+  }, props), _circle || (_circle = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("circle", {
+    cx: 44.5,
+    cy: 44.5,
+    r: 44.5
+  })));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4OSIgaGVpZ2h0PSI4OSIgdmlld0JveD0iMCAwIDg5IDg5Ij48Y2lyY2xlIGN4PSI0NC41IiBjeT0iNDQuNSIgcj0iNDQuNSIvPjwvc3ZnPg==");
+
+/***/ }),
+
+/***/ "../bpl-tools/Components/Mask/assets/shapes/flower.svg":
+/*!*************************************************************!*\
+  !*** ../bpl-tools/Components/Mask/assets/shapes/flower.svg ***!
+  \*************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   ReactComponent: () => (/* binding */ SvgFlower),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _path;
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+
+var SvgFlower = function SvgFlower(props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 89,
+    height: 89
+  }, props), _path || (_path = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+    d: "m76.133 44.475 6.33-6.328a22.349 22.349 0 0 0-31.613-31.6l-6.318 6.318-6.372-6.318a22.352 22.352 0 1 0-31.612 31.61l6.318 6.318-6.318 6.372a22.352 22.352 0 0 0 31.612 31.61l6.318-6.318 6.372 6.253a22.349 22.349 0 0 0 31.612-31.6Z"
+  })));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4OSIgaGVpZ2h0PSI4OSIgdmlld0JveD0iMCAwIDg5IDg5Ij48cGF0aCBkPSJNNzYuMTMzMiw0NC40NzUybDYuMzI4OS02LjMyODVBMjIuMzQ4NiwyMi4zNDg2LDAsMCwwLDUwLjg1LDYuNTQ3NEw0NC41MzIsMTIuODY1MSwzOC4xNiw2LjU0NzRhMjIuMzUyNCwyMi4zNTI0LDAsMSwwLTMxLjYxMiwzMS42MWw2LjMxODEsNi4zMTc3TDYuNTQ3OCw1MC44NDdhMjIuMzUyNCwyMi4zNTI0LDAsMCwwLDMxLjYxMiwzMS42MWw2LjMxODEtNi4zMTc3TDUwLjg1LDgyLjM5MjJhMjIuMzQ4NiwyMi4zNDg2LDAsMCwwLDMxLjYxMi0zMS41OTkzWiIvPjwvc3ZnPg==");
+
+/***/ }),
+
+/***/ "../bpl-tools/Components/Mask/assets/shapes/hexagon.svg":
+/*!**************************************************************!*\
+  !*** ../bpl-tools/Components/Mask/assets/shapes/hexagon.svg ***!
+  \**************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   ReactComponent: () => (/* binding */ SvgHexagon),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _path;
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+
+var SvgHexagon = function SvgHexagon(props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 103,
+    height: 89
+  }, props), _path || (_path = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+    d: "M77.211 0H25.752L0 44.505 25.752 89h51.46L103 44.505ZM61.77 62.261H41.222L30.939 44.504 41.222 26.74h20.547l10.283 17.766Z"
+  })));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDMiIGhlaWdodD0iODkiIHZpZXdCb3g9IjAgMCAxMDMgODkiPjxwYXRoIGQ9Ik03Ny4yMTE0LDBIMjUuNzUyM0wwLDQ0LjUwNDUsMjUuNzUyMyw4OUg3Ny4yMTE0TDEwMyw0NC41MDQ1Wk02MS43NjkxLDYyLjI2MUg0MS4yMjE4TDMwLjkzOTEsNDQuNTA0NSw0MS4yMjE4LDI2LjczOUg2MS43NjkxTDcyLjA1MTksNDQuNTA0NVoiLz48L3N2Zz4=");
+
+/***/ }),
+
+/***/ "../bpl-tools/Components/Mask/assets/shapes/sketch.svg":
+/*!*************************************************************!*\
+  !*** ../bpl-tools/Components/Mask/assets/shapes/sketch.svg ***!
+  \*************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   ReactComponent: () => (/* binding */ SvgSketch),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _path;
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+
+var SvgSketch = function SvgSketch(props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 91.114,
+    height: 89
+  }, props), _path || (_path = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+    d: "m82.175 37.527 1.612-1.612c.948-.949-6.37-5.931-7.05-6.378a45 45 0 0 0-5.776-3.325c-.247-.115-.602-.3-.987-.478q1.781-1.897 3.586-3.771c.949-.98-6.363-5.923-7.05-6.37a44 44 0 0 0-5.76-3.332l-.293-.147 1.396-1.542c.94-1.05-6.332-5.9-7.05-6.37a44 44 0 0 0-5.76-3.34c-.54-.247-2.314-1.265-2.847-.687q-13.458 14.993-28.08 28.891c-7.844 7.45-16.567 15.58-18.11 26.87-.115.825 1.327 1.974 1.744 2.314a41 41 0 0 0 5.314 4.057 44 44 0 0 0 5.76 3.34c.64.293 2.176 1.203 2.847.686l2.074-1.558c1.45 1.859 5.97 4.72 6.671 5.175l1.489.956a257 257 0 0 0-4.435 5.622c-.91 1.188 6.263 5.862 7.05 6.37a44 44 0 0 0 5.76 3.332c.602.278 2.23 1.234 2.846.694l9.255-8.098c.825 2.568 14.569 11.63 15.672 9.972L91.06 45.362c.632-.948-4.335-5.036-8.885-7.835"
+  })));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MS4xMTQzIiBoZWlnaHQ9Ijg4Ljk5OTkiIHZpZXdCb3g9IjAgMCA5MS4xMTQzIDg4Ljk5OTkiPjxwYXRoIGQ9Ik04Mi4xNzQ5LDM3LjUyNjZsMS42MTE5LTEuNjExOWMuOTQ4Ni0uOTQ4Ny02LjM3LTUuOTMwOS03LjA0OTItNi4zNzgyYTQ1LjE1MTYsNDUuMTUxNiwwLDAsMC01Ljc3NjYtMy4zMjQxYy0uMjQ2OC0uMTE1Ny0uNjAxNi0uMzAwOC0uOTg3Mi0uNDc4MnExLjc4MTYtMS44OTcyLDMuNTg2My0zLjc3MTNjLjk0ODYtLjk4LTYuMzYyOC01LjkyMzItNy4wNDkyLTYuMzcwNUE0NC4xNTc5LDQ0LjE1NzksMCwwLDAsNjAuNzUsMTIuMjYwNmwtLjI5My0uMTQ2NSwxLjM5NTktMS41NDI1Yy45NDA5LTEuMDQ4OS02LjMzMTktNS45LTcuMDQ5Mi02LjM3QTQ0LjIxMiw0NC4yMTIsMCwwLDAsNDkuMDQyMi44NjE2Yy0uNTQtLjI0NjctMi4zMTM3LTEuMjY0OC0yLjg0NTgtLjY4NjRRMzIuNzM4MSwxNS4xNjgyLDE4LjExNTQsMjkuMDY2Yy03Ljg0MzYsNy40NS0xNi41NjYzLDE1LjU3OTEtMTguMTA4OCwyNi44Ny0uMTE1Ny44MjUzLDEuMzI2NSwxLjk3NDQsMS43NDMsMi4zMTM4YTQwLjc5OSw0MC43OTksMCwwLDAsNS4zMTM5LDQuMDU2Nyw0NC4yMTc0LDQ0LjIxNzQsMCwwLDAsNS43NjExLDMuMzRjLjY0LjI5MzEsMi4xNzUsMS4yMDMxLDIuODQ1OS42ODY0bDIuMDc0Ny0xLjU1NzljMS40NSwxLjg1ODcsNS45Njk0LDQuNzIsNi42NzEyLDUuMTc1bDEuNDg4NS45NTY0QzI0LjQwMSw3Mi43NjQ3LDIyLjkyLDc0LjYzMTEsMjEuNDcsNzYuNTI4M2MtLjkxLDEuMTg3OCw2LjI2MjUsNS44NjE1LDcuMDQ5Miw2LjM3YTQ0LjE2MzMsNDQuMTYzMywwLDAsMCw1Ljc2MTEsMy4zMzE4Yy42MDE2LjI3NzYsMi4yMjg5LDEuMjM0LDIuODQ1OS42OTQxbDkuMjU1LTguMDk4Yy44MjUyLDIuNTY4MiwxNC41Njg3LDExLjYzLDE1LjY3MTYsOS45NzIxTDkxLjA2LDQ1LjM2MjRDOTEuNjkyLDQ0LjQxMzgsODYuNzI1Miw0MC4zMjYyLDgyLjE3NDksMzcuNTI2NloiLz48L3N2Zz4=");
+
+/***/ }),
+
+/***/ "../bpl-tools/Components/Mask/assets/shapes/triangle.svg":
+/*!***************************************************************!*\
+  !*** ../bpl-tools/Components/Mask/assets/shapes/triangle.svg ***!
+  \***************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   ReactComponent: () => (/* binding */ SvgTriangle),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _path;
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+
+var SvgTriangle = function SvgTriangle(props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 103,
+    height: 89
+  }, props), _path || (_path = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+    d: "M77.255 44.505 51.5 0 25.755 44.505 0 89h103z"
+  })));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDMiIGhlaWdodD0iODkiIHZpZXdCb3g9IjAgMCAxMDMgODkiPjxwb2x5Z29uIHBvaW50cz0iNzcuMjU1IDQ0LjUwNSA1MS41IDAgMjUuNzU1IDQ0LjUwNSAwIDg5IDUxLjUgODkgMTAzIDg5IDc3LjI1NSA0NC41MDUiLz48L3N2Zz4=");
+
+/***/ }),
+
+/***/ "../bpl-tools/utils/data.js":
+/*!**********************************!*\
+  !*** ../bpl-tools/utils/data.js ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   deskBreakpoint: () => (/* binding */ deskBreakpoint),
+/* harmony export */   mobileBreakpoint: () => (/* binding */ mobileBreakpoint),
+/* harmony export */   tabBreakpoint: () => (/* binding */ tabBreakpoint)
+/* harmony export */ });
+const deskBreakpoint = '@media only screen and (min-width: 1025px)';
+const tabBreakpoint = '@media only screen and (min-width: 641px) and (max-width: 1024px)';
+const mobileBreakpoint = '@media only screen and (max-width: 640px)';
+
+/***/ }),
+
 /***/ "../bpl-tools/utils/functions.js":
 /*!***************************************!*\
   !*** ../bpl-tools/utils/functions.js ***!
@@ -130,6 +330,518 @@ const escapeHTML = input => {
 
 /***/ }),
 
+/***/ "../bpl-tools/utils/getCSS.js":
+/*!************************************!*\
+  !*** ../bpl-tools/utils/getCSS.js ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   getAdvBGCSS: () => (/* binding */ getAdvBGCSS),
+/* harmony export */   getBackgroundCSS: () => (/* binding */ getBackgroundCSS),
+/* harmony export */   getBorderBoxCSS: () => (/* binding */ getBorderBoxCSS),
+/* harmony export */   getBorderCSS: () => (/* binding */ getBorderCSS),
+/* harmony export */   getBoxCSS: () => (/* binding */ getBoxCSS),
+/* harmony export */   getColorsCSS: () => (/* binding */ getColorsCSS),
+/* harmony export */   getGradientCSS: () => (/* binding */ getGradientCSS),
+/* harmony export */   getIconCSS: () => (/* binding */ getIconCSS),
+/* harmony export */   getMaskCSS: () => (/* binding */ getMaskCSS),
+/* harmony export */   getMultiShadowCSS: () => (/* binding */ getMultiShadowCSS),
+/* harmony export */   getOverlayCSS: () => (/* binding */ getOverlayCSS),
+/* harmony export */   getSeparatorCSS: () => (/* binding */ getSeparatorCSS),
+/* harmony export */   getShadowCSS: () => (/* binding */ getShadowCSS),
+/* harmony export */   getSpaceCSS: () => (/* binding */ getSpaceCSS),
+/* harmony export */   getTransformCSS: () => (/* binding */ getTransformCSS),
+/* harmony export */   getTypoCSS: () => (/* binding */ getTypoCSS),
+/* harmony export */   isValidCSS: () => (/* binding */ isValidCSS)
+/* harmony export */ });
+/* harmony import */ var _Components_Mask_assets_shapes_blob_svg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Components/Mask/assets/shapes/blob.svg */ "../bpl-tools/Components/Mask/assets/shapes/blob.svg");
+/* harmony import */ var _Components_Mask_assets_shapes_circle_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Components/Mask/assets/shapes/circle.svg */ "../bpl-tools/Components/Mask/assets/shapes/circle.svg");
+/* harmony import */ var _Components_Mask_assets_shapes_flower_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Components/Mask/assets/shapes/flower.svg */ "../bpl-tools/Components/Mask/assets/shapes/flower.svg");
+/* harmony import */ var _Components_Mask_assets_shapes_hexagon_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Components/Mask/assets/shapes/hexagon.svg */ "../bpl-tools/Components/Mask/assets/shapes/hexagon.svg");
+/* harmony import */ var _Components_Mask_assets_shapes_sketch_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Components/Mask/assets/shapes/sketch.svg */ "../bpl-tools/Components/Mask/assets/shapes/sketch.svg");
+/* harmony import */ var _Components_Mask_assets_shapes_triangle_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../Components/Mask/assets/shapes/triangle.svg */ "../bpl-tools/Components/Mask/assets/shapes/triangle.svg");
+/* harmony import */ var _data__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./data */ "../bpl-tools/utils/data.js");
+/* harmony import */ var _functions__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./functions */ "../bpl-tools/utils/functions.js");
+
+
+
+
+
+
+
+
+const isValidCSS = (p, v) => (0,_functions__WEBPACK_IMPORTED_MODULE_7__.isExist)(v) ? `${p}: ${v};` : '';
+const getBackgroundCSS = (bg, isSolid = true, isGradient = true, isImage = true) => {
+  const {
+    type = 'solid',
+    color = '',
+    gradient = '',
+    image = {},
+    position = '',
+    attachment = '',
+    repeat = '',
+    size = '',
+    overlayColor = ''
+  } = bg || {};
+  const styles = 'gradient' === type && isGradient ? isValidCSS('background', gradient) : 'image' === type && isImage ? `background: url(${image?.url});
+				${isValidCSS('background-color', overlayColor)}
+				${isValidCSS('background-position', position)}
+				${isValidCSS('background-size', size)}
+				${isValidCSS('background-repeat', repeat)}
+				${isValidCSS('background-attachment', attachment)}
+				${isValidCSS('background-repeat', repeat)}
+				background-blend-mode: overlay;` : isSolid && isValidCSS('background', color);
+  return styles;
+}; // PHP version in Stepped Content
+
+const getBorderCSS = border => {
+  const {
+    width = '0px',
+    style = 'solid',
+    color = '',
+    side = 'all',
+    radius = '0px'
+  } = border || {};
+  const borderSideCheck = s => {
+    const bSide = side?.toLowerCase();
+    return bSide?.includes('all') || bSide?.includes(s);
+  };
+  const noWidth = width === '0px' || !width;
+  const borderCSS = `${width} ${style} ${color}`;
+  const styles = `
+		${noWidth ? '' : ['top', 'right', 'bottom', 'left'].map(side => borderSideCheck(side) ? `border-${side}: ${borderCSS};` : '').join('')}
+		${!radius ? '' : `border-radius: ${radius};`}
+	`;
+  return styles;
+};
+const getBorderBoxCSS = border => {
+  if (!border) return '';
+  const generateBorderCSS = borderObj => {
+    const {
+      color = '#000000',
+      style = 'solid',
+      width = '0px'
+    } = borderObj;
+    return `${width} ${style} ${color}`;
+  };
+  if ('object' === typeof border && !Array.isArray(border)) {
+    if (border.hasOwnProperty('top') || border.hasOwnProperty('right') || border.hasOwnProperty('bottom') || border.hasOwnProperty('left')) {
+      const sides = ['top', 'right', 'bottom', 'left'];
+      return sides.map(side => border[side] ? `border-${side}: ${generateBorderCSS(border[side])};` : '').join(' ').trim();
+    } else {
+      return isValidCSS('border', generateBorderCSS(border));
+    }
+  }
+  return '';
+};
+const getColorsCSS = colors => {
+  const {
+    color = '#333',
+    bgType = 'solid',
+    bg = '',
+    gradient = 'linear-gradient(135deg, #4527a4, #8344c5)'
+  } = colors || {};
+  const styles = `
+		${color ? `color: ${color};` : ''}
+		${gradient || bg ? isValidCSS('background', 'gradient' === bgType ? gradient : bg) : ''}
+	`;
+  return styles;
+};
+const getIconCSS = (icon, isSize = true, isColor = true) => {
+  const {
+    fontSize = 16,
+    colorType = 'solid',
+    color = 'inherit',
+    gradient = 'linear-gradient(135deg, #4527a4, #8344c5)'
+  } = icon || {};
+  const colorCSS = 'gradient' === colorType ? `color: transparent; background-image: ${gradient}; -webkit-background-clip: text; background-clip: text;` : isValidCSS('color', color);
+  const styles = `
+		${!fontSize || !isSize ? '' : isValidCSS('font-size', fontSize ? `${fontSize}px` : '')}
+		${isColor ? colorCSS : ''}
+	`;
+  return styles;
+};
+const getMultiShadowCSS = (value, type = 'box') => {
+  let styles = '';
+  value?.map((item, index) => {
+    const {
+      hOffset = '0px',
+      vOffset = '0px',
+      blur = '0px',
+      spreed = '0px',
+      color = '#7090b0',
+      isInset = false
+    } = item || {};
+    const inset = isInset ? 'inset' : '';
+    const offsetBlur = `${hOffset} ${vOffset} ${blur}`;
+    const isComa = index + 1 >= value.length ? '' : ', ';
+    styles += 'text' === type ? `${offsetBlur} ${color}${isComa}` : `${offsetBlur} ${spreed} ${color} ${inset}${isComa}`;
+  });
+  return styles || 'none';
+};
+const getSeparatorCSS = separator => {
+  const {
+    width = '50%',
+    height = '2px',
+    style = 'solid',
+    color = '#bbb'
+  } = separator || {};
+  const styles = `
+		width: ${width};
+		${'0px' === height && '0em' === height && '0rem' === height ? '' : `border-top: ${height} ${style} ${color};`}
+	`;
+  return styles;
+};
+const getShadowCSS = (shadow, type = 'box') => {
+  const {
+    hOffset = '0px',
+    vOffset = '0px',
+    blur = '0px',
+    spreed = '0px',
+    color = '#7090b0',
+    isInset = false
+  } = shadow || {};
+  const inset = isInset ? 'inset' : '';
+  const offsetBlur = `${hOffset} ${vOffset} ${blur}`;
+  const styles = 'text' === type ? `${offsetBlur} ${color}` : `${offsetBlur} ${spreed} ${color} ${inset}`;
+  return styles || 'none';
+};
+const getSpaceCSS = space => {
+  const {
+    side = 2,
+    vertical = '0px',
+    horizontal = '0px',
+    top = '0px',
+    right = '0px',
+    bottom = '0px',
+    left = '0px'
+  } = space || {};
+  const styles = 2 === side ? `${vertical} ${horizontal}` : `${top} ${right} ${bottom} ${left}`;
+  return styles;
+};
+const getTypoCSS = (selector, typo, isFamily = true) => {
+  const {
+    fontFamily = 'Default',
+    fontCategory = 'sans-serif',
+    fontVariant = 400,
+    fontWeight = 400,
+    isUploadFont = true,
+    fontSize = {
+      desktop: 15,
+      tablet: 15,
+      mobile: 15
+    },
+    fontStyle = 'normal',
+    textTransform = 'none',
+    textDecoration = 'auto',
+    lineHeight = '135%',
+    letterSpace = '0px'
+  } = typo || {};
+  const isEmptyFamily = !isFamily || !fontFamily || 'Default' === fontFamily;
+  const desktopFontSize = fontSize?.desktop || fontSize;
+  const tabletFontSize = fontSize?.tablet || desktopFontSize;
+  const mobileFontSize = fontSize?.mobile || tabletFontSize;
+  const styles = `
+		${isEmptyFamily ? '' : `font-family: '${fontFamily}', ${fontCategory};`}
+		${isValidCSS('font-weight', fontWeight)}
+		${isValidCSS('font-size', desktopFontSize ? `${desktopFontSize}px` : '')}
+		${isValidCSS('font-style', fontStyle)}
+		${isValidCSS('text-transform', textTransform)}
+		${isValidCSS('text-decoration', textDecoration)}
+		${isValidCSS('line-height', lineHeight)}
+		${isValidCSS('letter-spacing', letterSpace)}
+	`;
+
+  // Google font link
+  const linkQuery = !fontVariant || 400 === fontVariant ? '' : '400i' === fontVariant ? ':ital@1' : fontVariant?.includes('00i') ? `: ital, wght@1, ${fontVariant?.replace('00i', '00')} ` : `: wght@${fontVariant} `;
+  const link = isEmptyFamily ? '' : `https://fonts.googleapis.com/css2?family=${fontFamily?.split(' ').join('+')}${linkQuery.replace(/ /g, '')}&display=swap`;
+  return {
+    googleFontLink: !isUploadFont || isEmptyFamily ? '' : `@import url(${link});`,
+    styles: `${selector}{
+			${styles}
+		}
+		${_data__WEBPACK_IMPORTED_MODULE_6__.tabBreakpoint} {
+			${selector}{
+				${isValidCSS('font-size', tabletFontSize ? `${tabletFontSize}px` : '')}
+			}
+		}
+		${_data__WEBPACK_IMPORTED_MODULE_6__.mobileBreakpoint} {
+			${selector}{
+				${isValidCSS('font-size', mobileFontSize ? `${mobileFontSize}px` : '')}
+			}
+		}`.replace(/\s+/g, ' ').trim()
+  };
+};
+const getBoxCSS = val => {
+  if (!val) return '';
+  if (typeof val === 'string') return val;
+  if (typeof val === 'object' && !Array.isArray(val)) {
+    const order = ['top', 'right', 'bottom', 'left'];
+    const values = order.map(side => val[side] || '');
+    const allEmpty = values.every(value => !value);
+    return allEmpty ? '' : order.map(side => val[side] || '0').join(' ');
+  }
+  return '';
+};
+
+// Murad Wahid
+const getGradientCSS = gradient => {
+  const {
+    type,
+    radialType,
+    colors,
+    centerPositions,
+    angel
+  } = gradient || {};
+  if (gradient) {
+    const gradientColors = colors?.map(({
+      color,
+      position
+    }) => `${color} ${position}%`);
+    const liner = `linear-gradient(${angel}deg, ${gradientColors})`;
+    const radial = `radial-gradient(${radialType} at ${centerPositions?.x}% ${centerPositions?.y}%,${gradientColors})`;
+    return isValidCSS('background', type === 'linear' ? liner : radial);
+  }
+  return '';
+};
+const getImagePosition = img => {
+  const {
+    position = 'center center',
+    xPosition = 0,
+    yPosition = 0,
+    attachment = '',
+    repeat = 'no-repeat',
+    size = 'cover',
+    customSize = '0px'
+  } = img || {};
+  const cd = v => 'initial' !== v || (0,_functions__WEBPACK_IMPORTED_MODULE_7__.isExist)(v);
+  return `
+		${cd(position) ? `background-position: ${'custom' === position ? `${xPosition} ${yPosition}` : position};` : ''}
+		${attachment && cd(attachment) ? `background-attachment: ${attachment};` : ''}
+		${cd(repeat) ? `background-repeat: ${repeat};` : ''}
+		${cd(size) ? `background-size: ${'custom' === size ? `${customSize} auto` : size};` : ''}
+	`;
+};
+const getImageCSS = (img = {}) => {
+  if (img) {
+    return {
+      desktop: (0,_functions__WEBPACK_IMPORTED_MODULE_7__.isExist)(img.url) ? `background-image: url(${img.url}); ${getImagePosition(img?.desktop)}` : '',
+      tablet: (0,_functions__WEBPACK_IMPORTED_MODULE_7__.isExist)(img.url) ? getImagePosition(img?.tablet) : '',
+      mobile: (0,_functions__WEBPACK_IMPORTED_MODULE_7__.isExist)(img.url) ? getImagePosition(img?.mobile) : ''
+    };
+  }
+  return '';
+};
+const getVideoCSS = (video, selector) => {
+  const {
+    url,
+    loop
+  } = video || {};
+  const parentEl = document.querySelector(selector);
+  const el = parentEl?.querySelector('.bPlVideo');
+  const videoEl = document.createElement('video');
+  videoEl.muted = true;
+  videoEl.autoplay = true;
+  videoEl.classList.add('bPlVideo');
+  if (!el) {
+    if (parentEl && url) {
+      videoEl.innerHTML = `<source src=${url}></source>`;
+      parentEl.appendChild(videoEl);
+    }
+  }
+  videoEl.loop = loop;
+  videoEl.play();
+  return `${selector} .bPlVideo{
+		left: 0;
+		min-height: 100%;
+		min-width: 100%;
+		position: absolute;
+		width: -webkit-fill-available;
+		top: 0;
+		z-index: 0;
+	}`;
+};
+const getAdvBGCSS = (background, selector, isHover = false) => {
+  const {
+    type = 'color',
+    color,
+    gradient,
+    img,
+    video
+  } = background || {};
+  const bgCSS = type === 'color' ? isValidCSS('background', color) : type === 'gradient' ? getGradientCSS(gradient) : type === 'image' ? getImageCSS(img).desktop : '';
+  const tablet = type === 'image' ? getImageCSS(img).tablet : '';
+  const mobile = type === 'image' ? getImageCSS(img).mobile : '';
+  const sl = isHover ? `${selector}:hover` : selector;
+  return `
+		${type === 'video' ? getVideoCSS(video, selector) : ''}
+
+		${bgCSS ? `${sl}{
+			${bgCSS}
+		}` : ''}
+
+		${tablet ? `${_data__WEBPACK_IMPORTED_MODULE_6__.tabBreakpoint} {
+			${sl}{
+				${tablet}
+			}
+		}` : ''}
+
+		${mobile ? `${_data__WEBPACK_IMPORTED_MODULE_6__.mobileBreakpoint} {
+			${sl}{
+				${mobile}
+			}
+		}` : ''}
+	`.replace(/\s+/g, ' ').trim();
+};
+const getOverlayCSS = (overlay, selector, isHover = false) => {
+  const {
+    isEnabled,
+    colors,
+    opacity = 1,
+    blend,
+    filter = '',
+    blur = 0,
+    brightness = 100,
+    contrast = 100,
+    saturation = 100,
+    hue = 0
+  } = overlay || {};
+  const filterCSSValue = `${100 !== brightness ? `brightness(${brightness}%)` : ''} ${100 !== contrast ? `contrast(${contrast}%)` : ''} ${100 !== saturation ? `saturate(${saturation}%)` : ''} ${0 !== blur ? `blur(${blur}px)` : ''} ${0 !== hue ? `hue-rotate(${hue}deg)` : ''}`;
+  const filterCSS = `${filter}: ${filter ? filterCSSValue : ''}; -webkit-${filter}: ${filter ? filterCSSValue : ''};`;
+  const sl = isHover ? `${selector}:hover::after` : `${selector}::after`;
+  return isEnabled ? `
+		${selector}::after{
+			content: '';
+			position: absolute;
+			inset: 0;
+		}
+		${getAdvBGCSS(colors, sl, false)}
+		${sl}{
+			${isValidCSS('opacity', opacity)}
+			${isValidCSS('mix-blend-mode', blend)}
+			${filterCSS}
+		}
+	`.replace(/\s+/g, ' ').trim() : '';
+};
+const getTransformCSS = (transform, selector, isHover = false) => {
+  const generateTransformCSS = (value, device = 'desktop') => {
+    if (!(0,_functions__WEBPACK_IMPORTED_MODULE_7__.isExist)(value)) return '';
+    const {
+      skew,
+      scale,
+      rotate,
+      offset,
+      flipX,
+      flipY
+    } = value;
+    const {
+      threeDRotate
+    } = rotate || {};
+    const {
+      isProportion
+    } = scale || {};
+    const transforms = [];
+    //skew
+    if ((0,_functions__WEBPACK_IMPORTED_MODULE_7__.isExist)(skew)) {
+      if ((0,_functions__WEBPACK_IMPORTED_MODULE_7__.isExist)(skew?.[device]?.x)) transforms.push(`skewX(${skew[device].x}deg)`);
+      if ((0,_functions__WEBPACK_IMPORTED_MODULE_7__.isExist)(skew?.[device]?.y)) transforms.push(`skewY(${skew[device].y}deg)`);
+    }
+    //scale
+    if (isProportion) {
+      if ((0,_functions__WEBPACK_IMPORTED_MODULE_7__.isExist)(scale?.[device]?.scale)) transforms.push(`scale(${scale[device].scale})`);
+    } else {
+      if ((0,_functions__WEBPACK_IMPORTED_MODULE_7__.isExist)(scale?.[device]?.x)) transforms.push(`scaleX(${scale[device].x})`);
+      if ((0,_functions__WEBPACK_IMPORTED_MODULE_7__.isExist)(scale?.[device]?.y)) transforms.push(`scaleY(${scale[device].y})`);
+    }
+
+    //rotate
+    if ((0,_functions__WEBPACK_IMPORTED_MODULE_7__.isExist)(rotate)) {
+      if ((0,_functions__WEBPACK_IMPORTED_MODULE_7__.isExist)(rotate?.[device]?.z)) transforms.push(`rotateZ(${rotate[device].z}deg)`);
+      if (threeDRotate) {
+        if ((0,_functions__WEBPACK_IMPORTED_MODULE_7__.isExist)(rotate?.[device]?.x)) transforms.push(`rotateX(${rotate[device].x}deg)`);
+        if ((0,_functions__WEBPACK_IMPORTED_MODULE_7__.isExist)(rotate?.[device]?.y)) transforms.push(`rotateY(${rotate[device].y}deg)`);
+      }
+    }
+
+    //offset
+    if ((0,_functions__WEBPACK_IMPORTED_MODULE_7__.isExist)(offset)) {
+      if ((0,_functions__WEBPACK_IMPORTED_MODULE_7__.isExist)(offset?.[device]?.x)) transforms.push(`translateX(${offset[device].x})`);
+      if ((0,_functions__WEBPACK_IMPORTED_MODULE_7__.isExist)(offset?.[device]?.y)) transforms.push(`translateY(${offset[device].y})`);
+    }
+
+    //flip
+    if ((0,_functions__WEBPACK_IMPORTED_MODULE_7__.isExist)(flipX)) transforms.push(flipX ? 'scaleX(-1)' : '');
+    if ((0,_functions__WEBPACK_IMPORTED_MODULE_7__.isExist)(flipY)) transforms.push(flipY ? 'scaleY(-1)' : '');
+    if (transforms.length === 0) return '';
+    return isValidCSS('transform', transforms.join(' '));
+  };
+  const sl = isHover ? `${selector}:hover` : selector;
+  // ${isExist(hover?.transition)?`transition:transform ${hover.transition}ms ease-in-out`:'' }
+
+  return `
+		${sl} {
+			${generateTransformCSS(transform, 'desktop')}
+		}
+		${_data__WEBPACK_IMPORTED_MODULE_6__.tabBreakpoint}{
+			${sl} {
+				${generateTransformCSS(transform, 'tablet')}
+			}
+		}
+		${_data__WEBPACK_IMPORTED_MODULE_6__.mobileBreakpoint}{
+			${sl} {
+				${generateTransformCSS(transform, 'mobile')}
+			}
+		}
+	`;
+};
+const getMaskCSS = mask => {
+  const {
+    isMask = false,
+    shape = {
+      type: 'circle'
+    },
+    size = {
+      type: 'contain',
+      scale: '100%'
+    },
+    position = {
+      type: 'center center',
+      x: 50,
+      y: 50
+    },
+    repeat = 'no-repeat'
+  } = mask || {};
+  const svgShape = [{
+    svg: _Components_Mask_assets_shapes_circle_svg__WEBPACK_IMPORTED_MODULE_1__["default"],
+    type: 'circle'
+  }, {
+    svg: _Components_Mask_assets_shapes_flower_svg__WEBPACK_IMPORTED_MODULE_2__["default"],
+    type: 'flower'
+  }, {
+    svg: _Components_Mask_assets_shapes_sketch_svg__WEBPACK_IMPORTED_MODULE_4__["default"],
+    type: 'sketch'
+  }, {
+    svg: _Components_Mask_assets_shapes_triangle_svg__WEBPACK_IMPORTED_MODULE_5__["default"],
+    type: 'triangle'
+  }, {
+    svg: _Components_Mask_assets_shapes_blob_svg__WEBPACK_IMPORTED_MODULE_0__["default"],
+    type: 'blob'
+  }, {
+    svg: _Components_Mask_assets_shapes_hexagon_svg__WEBPACK_IMPORTED_MODULE_3__["default"],
+    type: 'hexagon'
+  }];
+  const getShape = type => svgShape.find(e => e.type === type);
+  return isMask ? `-webkit-mask-image: url(${shape.type === 'custom' ? shape.url : getShape(shape.type).svg});
+		-webkit-mask-size: ${size.type === 'custom' ? size.scale : size.type};
+		${position.type === 'custom' ? `${isValidCSS('-webkit-mask-position-x', position.x)}
+			${isValidCSS('-webkit-mask-position-y', position.y)}` : `${isValidCSS('-webkit-mask-position', position.type)}`}
+		${size.type !== 'cover' ? `-webkit-mask-repeat: ${repeat};` : ''}` : '';
+};
+
+/***/ }),
+
 /***/ "./src/Components/Common/HorizontalTable/HorizontalTable.js":
 /*!******************************************************************!*\
   !*** ./src/Components/Common/HorizontalTable/HorizontalTable.js ***!
@@ -157,33 +869,43 @@ const HorizontalTable = ({
 }) => {
   const {
     horizontalTableData,
-    footerData
+    footerData,
+    featuresColumn
   } = attributes;
   const isEditor = (0,_wordpress_data__WEBPACK_IMPORTED_MODULE_1__.useSelect)(select => select('core/editor'));
-  return (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+  return (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    className: "main-container"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     className: "pricing-container"
   }, horizontalTableData?.map((singleData, idx) => (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-    className: `pricing-card ${singleData.featured ? "featured" : ""}`,
+    className: `${singleData.featured ? "featured" : "pricing-card"} pricing-card-${idx} `,
     key: idx
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-    className: "card-section"
+    className: `card-section ${featuresColumn === 1 ? "card-section-oneCol" : ""}`
   }, isEditor ? (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.RichText, {
     className: "card-h2",
     tagName: "h2",
-    value: singleData.title,
+    value: singleData?.title,
     placeholder: "Enter Your Title ",
     onChange: val => setAttributes({
       horizontalTableData: (0,_bpl_tools_utils_functions__WEBPACK_IMPORTED_MODULE_3__.updateData)(horizontalTableData, val, idx, 'title')
     }),
     allowedFormats: ['core/bold', 'core/italic', 'core/link', 'core/text-color']
-  }) : (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h2", {
-    className: "card-h2"
-  }, singleData.title), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+  }) : (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.RichText.Content, {
+    tagName: "h2",
+    className: "card-h2",
+    value: singleData?.title
+  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     className: "price"
-  }, isEditor ? (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.RichText, {
+  }, isEditor ? (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("span", {
+    className: "amount",
+    dangerouslySetInnerHTML: {
+      __html: singleData?.currency
+    }
+  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.RichText, {
     className: "amount",
     tagName: "span",
-    value: singleData.price,
+    value: singleData?.price,
     placeholder: "Price ",
     onChange: val => setAttributes({
       horizontalTableData: (0,_bpl_tools_utils_functions__WEBPACK_IMPORTED_MODULE_3__.updateData)(horizontalTableData, val, idx, 'price')
@@ -192,29 +914,40 @@ const HorizontalTable = ({
   }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.RichText, {
     className: "period",
     tagName: "span",
-    value: singleData.period,
+    value: singleData?.period,
     placeholder: "Period ",
     onChange: val => setAttributes({
       horizontalTableData: (0,_bpl_tools_utils_functions__WEBPACK_IMPORTED_MODULE_3__.updateData)(horizontalTableData, val, idx, 'period')
     }),
     allowedFormats: ['core/bold', 'core/italic', 'core/link', 'core/text-color']
   })) : (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("span", {
-    className: "amount"
-  }, singleData.price), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("span", {
-    className: "period"
-  }, singleData.period))), isEditor ? (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.RichText, {
+    className: "amount",
+    dangerouslySetInnerHTML: {
+      __html: singleData?.currency
+    }
+  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.RichText.Content, {
+    tagName: "span",
+    className: "amount",
+    value: singleData?.price
+  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.RichText.Content, {
+    tagName: "span",
+    className: "period",
+    value: singleData?.period
+  }))), isEditor ? (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.RichText, {
     className: "description",
     tagName: "p",
-    value: singleData.description,
+    value: singleData?.description,
     placeholder: "Enter Your description ",
     onChange: val => setAttributes({
       horizontalTableData: (0,_bpl_tools_utils_functions__WEBPACK_IMPORTED_MODULE_3__.updateData)(horizontalTableData, val, idx, 'description')
     }),
     allowedFormats: ['core/bold', 'core/italic', 'core/link', 'core/text-color']
-  }) : (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", {
-    className: "description"
-  }, singleData.description)), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-    className: "features-section"
+  }) : (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.RichText.Content, {
+    tagName: "p",
+    className: "description",
+    value: singleData?.description
+  })), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    className: `features-section ${featuresColumn === 1 ? "featuresOneCol" : ""}`
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     className: "feature-list"
   }, singleData?.features?.map((feature, index) => (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
@@ -238,19 +971,21 @@ const HorizontalTable = ({
     dangerouslySetInnerHTML: {
       __html: feature?.icon
     }
-  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("span", {
-    className: "fea-item"
-  }, feature?.title)))))))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.RichText.Content, {
+    tagName: "span",
+    className: "fea-item",
+    value: feature?.title
+  })))))))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     className: "action-section"
   }, isEditor ? (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
     href: singleData?.buttonLink || '#',
     className: "link-a",
-    target: singleData.buttonNewTab ? "_blank" : "_self",
+    target: singleData?.buttonNewTab ? "_blank" : "_self",
     rel: singleData?.buttonNewTab ? "noopener noreferrer" : undefined,
     onClick: e => e.preventDefault()
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.RichText, {
     className: "get-started",
-    tagName: "p",
+    tagName: "div",
     value: singleData.buttonText,
     placeholder: "Enter Button Name ",
     onChange: val => setAttributes({
@@ -260,11 +995,13 @@ const HorizontalTable = ({
   })) : (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, singleData?.buttonText && (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
     href: singleData?.buttonLink || '#',
     className: "link-a",
-    target: singleData.buttonNewTab ? "_blank" : "_self",
+    target: singleData?.buttonNewTab ? "_blank" : "_self",
     rel: singleData?.buttonNewTab ? "noopener noreferrer" : undefined
-  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("button", {
-    className: "get-started"
-  }, singleData.buttonText))))))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.RichText.Content, {
+    tagName: "div",
+    className: "get-started",
+    value: singleData.buttonText
+  }))))))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     className: "footer-content"
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     className: "footer-section"
@@ -298,20 +1035,25 @@ const HorizontalTable = ({
       });
     },
     allowedFormats: ['core/bold', 'core/italic', 'core/link', 'core/text-color']
-  })) : (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", {
-    className: "footer-h3 "
-  }, footerData?.title), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", {
-    className: "footer-p "
-  }, footerData?.des))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+  })) : (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.RichText.Content, {
+    tagName: "h3",
+    className: "footer-h3",
+    value: footerData?.title
+  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.RichText.Content, {
+    tagName: "p",
+    className: "footer-p",
+    value: footerData?.des
+  }))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     className: "footer-icon "
   }, isEditor ? (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
+    className: "link-a",
     href: footerData?.buttonLink || '#',
     target: footerData.buttonNewTab ? "_blank" : "_self",
     rel: footerData?.buttonNewTab ? "noopener noreferrer" : undefined,
     onClick: e => e.preventDefault()
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.RichText, {
     className: "footer-icon-text",
-    tagName: "span",
+    tagName: "p",
     value: footerData?.buttonName,
     placeholder: "Enter Button Name",
     onChange: newtext => {
@@ -329,12 +1071,15 @@ const HorizontalTable = ({
       __html: footerData?.icon
     }
   }))) : (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, footerData?.buttonName && (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
+    className: "link-a",
     href: footerData?.buttonLink || '#',
     target: footerData.buttonNewTab ? "_blank" : "_self",
     rel: footerData?.buttonNewTab ? "noopener noreferrer" : undefined
-  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", {
-    className: "footer-icon-text"
-  }, footerData?.buttonName), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("span", {
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.RichText.Content, {
+    tagName: "div",
+    className: "footer-icon-text",
+    value: footerData?.buttonName
+  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("span", {
     className: "icon",
     dangerouslySetInnerHTML: {
       __html: footerData?.icon
@@ -357,25 +1102,341 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../bpl-tools/utils/getCSS */ "../bpl-tools/utils/getCSS.js");
 
-// import { getColorsCSS } from '../../../../bpl-tools/utils/getCSS';
 
 const Style = ({
+  attributes,
   id
 }) => {
-  // const { colors } = attributes;
+  const {
+    style,
+    horizontalTableData,
+    iconToggle,
+    featuresColumn
+  } = attributes;
 
+  // single Icon Color
+  const generateIconFillCSS = () => {
+    return horizontalTableData?.map((card, cardIndex) => card.features.map((feature, featureIndex) => `.pricing-card-${cardIndex} .icon-${featureIndex} svg {
+                  fill: ${iconToggle ? style?.tabileRowStyle?.featuresSectionStyle?.checkmarkGobalColor : feature.iconColor};
+                }`).join('\n')).join('\n');
+  };
+  const tableShadowValue = style?.tabileRowStyle?.tableShadow?.map(s => `${s.hOffset} ${s.vOffset} ${s.blur} ${s.spreed} ${s.color}`).join(', ');
+  const buttonShadowValue = style?.tabileRowStyle?.actionStyle?.getStartedShadow?.map(s => `${s.hOffset} ${s.vOffset} ${s.blur} ${s.spreed} ${s.color}`).join(', ');
+  const featuredShadowValue = style?.tabileRowStyle?.featuredStyle?.featuredShadow?.map(s => `${s.hOffset} ${s.vOffset} ${s.blur} ${s.spreed} ${s.color}`).join(', ');
+  const featuredButtonShadowValue = style?.tabileRowStyle?.featuredStyle?.actionStyle?.getStartedShadow?.map(s => `${s.hOffset} ${s.vOffset} ${s.blur} ${s.spreed} ${s.color}`).join(', ');
   const mainSl = `#${id}`;
   const blockSl = `${mainSl} .bBlocksHorizontalPricingTable`;
-  const pricingContainer = `${blockSl} .pricing-container`;
+  const mainContainer = `${blockSl} .main-container`;
+  const pricingContainer = `${mainContainer} .pricing-container`;
   const pricingCard = `${pricingContainer} .pricing-card`;
+  const cardSection = `${pricingCard} .card-section`;
+  const cardH2 = `${pricingCard} .card-h2`;
+  const price = `${pricingCard} .price`;
+  const amount = `${price} .amount`;
+  const period = `${price} .period`;
+  const description = `${cardSection} .description`;
+  const featuresSection = `${pricingCard} .features-section`;
+  const featureList = `${featuresSection} .feature-list`;
+  const feature = `${featureList} .feature`;
+  const checkmark = `${feature} .checkmark`;
+  const feaTtem = `${feature} .fea-item`;
+  const actionSection = `${pricingCard} .action-section`;
+  const linka = `${actionSection} .link-a`;
+  const getStarted = `${linka} .get-started`;
+  const featured = `${pricingContainer} .featured`;
+  const featuredCardSection = `${featured} .card-section`;
+  const featuredCardH2 = `${featuredCardSection} .card-h2`;
+  const featuredPrice = `${featuredCardSection} .price`;
+  const featuredAmount = `${featuredPrice} .amount`;
+  const featuredPeriod = `${featuredPrice} .period`;
+  const featuredDescription = `${featuredCardSection} .description`;
+  const featuredSection = `${featured} .features-section`;
+  const featuredList = `${featuredSection} .feature-list`;
+  const featuredFeature = `${featuredList} .feature`;
+  const featuredCheckmark = `${featuredFeature} .checkmark`;
+  const featuredFeaItem = `${featuredFeature} .fea-item`;
+  const featuredActionSection = `${featured} .action-section`;
+  const featuredlinka = `${featured} .link-a`;
+  const featuredGetStarted = `${featuredlinka} .get-started`;
+  const footerContent = `${mainContainer} .footer-content`;
+  const footerSection = `${mainContainer} .footer-section`;
+  const footerText = `${footerSection} .footer-text`;
+  const footerh3 = `${footerText} .footer-h3`;
+  const footerp = `${footerText} .footer-p`;
+  const footerIcon = `${footerSection} .footer-icon`;
+  const footerIconText = `${footerIcon} .footer-icon-text`;
+  const footerIcons = `${footerIcon} .icon`;
   return (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("style", {
     dangerouslySetInnerHTML: {
       __html: `
-         ${pricingCard} {
-		   
+	    ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getTypoCSS)('', style?.tabileRowStyle?.titleStyle?.titleTypo)?.googleFontLink}
+	    ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getTypoCSS)('', style?.tabileRowStyle?.priceStyle?.amountTypo)?.googleFontLink}
+	    ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getTypoCSS)('', style?.tabileRowStyle?.priceStyle?.periodTypo)?.googleFontLink}
+	    ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getTypoCSS)('', style?.tabileRowStyle?.priceStyle?.descriptionTypo)?.googleFontLink}
+	    ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getTypoCSS)('', style?.tabileRowStyle?.featuresSectionStyle?.featureTypo)?.googleFontLink}
+	    ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getTypoCSS)('', style?.tabileRowStyle?.actionStyle?.getStartedTypo)?.googleFontLink}
+	    ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getTypoCSS)('', style?.tabileRowStyle?.featuredStyle?.featuredTitleTypo)?.googleFontLink}
+	    ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getTypoCSS)('', style?.tabileRowStyle?.featuredStyle?.featuredAmountTypo)?.googleFontLink}
+	    ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getTypoCSS)('', style?.tabileRowStyle?.featuredStyle?.featuredPeriodTypo)?.googleFontLink}
+	    ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getTypoCSS)('', style?.tabileRowStyle?.featuredStyle?.featuredDescriptionTypo)?.googleFontLink}
+	    ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getTypoCSS)('', style?.tabileRowStyle?.featuredStyle?.featuredFeatureSectionStyle?.featureTypo)?.googleFontLink}
+	    ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getTypoCSS)('', style?.tabileRowStyle?.featuredStyle?.actionStyle?.getStartedTypo)?.googleFontLink}
+	    ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getTypoCSS)('', style?.tabileRowStyle?.footerStyle?.footerTitleTypo)?.googleFontLink}
+	    ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getTypoCSS)('', style?.tabileRowStyle?.footerStyle?.footerDesTypo)?.googleFontLink}
+	    ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getTypoCSS)('', style?.tabileRowStyle?.footerStyle?.footerIconTextTypo)?.googleFontLink}
+
+	   
+
+        ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getTypoCSS)(cardH2, style?.tabileRowStyle?.titleStyle?.titleTypo)?.styles}
+        ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getTypoCSS)(amount, style?.tabileRowStyle?.priceStyle?.amountTypo)?.styles}
+        ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getTypoCSS)(period, style?.tabileRowStyle?.priceStyle?.periodTypo)?.styles}
+        ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getTypoCSS)(description, style?.tabileRowStyle?.priceStyle?.descriptionTypo)?.styles}
+        ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getTypoCSS)(feaTtem, style?.tabileRowStyle?.featuresSectionStyle?.featureTypo)?.styles}
+        ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getTypoCSS)(getStarted, style?.tabileRowStyle?.actionStyle?.getStartedTypo)?.styles}
+        ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getTypoCSS)(featuredCardH2, style?.tabileRowStyle?.featuredStyle?.featuredTitleTypo)?.styles}
+        ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getTypoCSS)(featuredAmount, style?.tabileRowStyle?.featuredStyle?.featuredAmountTypo)?.styles}
+        ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getTypoCSS)(featuredPeriod, style?.tabileRowStyle?.featuredStyle?.featuredPeriodTypo)?.styles}
+        ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getTypoCSS)(featuredDescription, style?.tabileRowStyle?.featuredStyle?.featuredDescriptionTypo)?.styles}
+        ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getTypoCSS)(featuredFeaItem, style?.tabileRowStyle?.featuredStyle?.featuredFeatureSectionStyle?.featureTypo)?.styles}
+        ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getTypoCSS)(featuredGetStarted, style?.tabileRowStyle?.featuredStyle?.actionStyle?.getStartedTypo)?.styles}
+        ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getTypoCSS)(footerh3, style?.tabileRowStyle?.footerStyle?.footerTitleTypo)?.styles}
+        ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getTypoCSS)(footerp, style?.tabileRowStyle?.footerStyle?.footerDesTypo)?.styles}
+        ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getTypoCSS)(footerIconText, style?.tabileRowStyle?.footerStyle?.footerIconTextTypo)?.styles}
+   
+        
+
+        ${mainContainer} {
+		   max-width:${style?.rowWidth};
 		 }
+		${pricingContainer}{
+			gap:${style?.tabileRowStyle?.rowGap};
+		}
+		${pricingCard}{
+		  background: ${style?.tabileRowStyle?.backgroundColor?.includes('gradient') ? style?.tabileRowStyle?.backgroundColor : `${style?.tabileRowStyle?.backgroundColor}`};
+		  ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.isValidCSS)("border-radius", (0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getBoxCSS)(style?.tabileRowStyle?.tableRadius))}
+		  box-shadow: ${tableShadowValue};
+		  border: ${style?.tabileRowStyle?.tableBorder?.width} ${style?.tabileRowStyle?.tableBorder?.style} ${style?.tabileRowStyle?.tableBorder?.color};
+		}
+		${cardSection}{
+		  ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.isValidCSS)("padding", (0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getBoxCSS)(style?.tabileRowStyle?.tablePadding?.desktop))}
+		}
+		${cardH2}{
+		  color:${style?.tabileRowStyle?.titleStyle?.titleColor};
+		  ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.isValidCSS)("margin", (0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getBoxCSS)(style?.tabileRowStyle?.titleStyle?.titleMargin?.desktop))}
+		}
+		${price}{
+		  ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.isValidCSS)("margin", (0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getBoxCSS)(style?.tabileRowStyle?.priceStyle?.priceMarging?.desktop))}
+		}
+		${amount}{
+		  color:${style?.tabileRowStyle?.priceStyle?.amountColor};
+		}
+		${amount} svg{
+		  height:${style?.tabileRowStyle?.priceIconWidth};
+		  fill:${style?.tabileRowStyle?.priceIconColor};
+		}
+		${period}{
+		  color:${style?.tabileRowStyle?.priceStyle?.periodColor};
+		  ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.isValidCSS)("margin", (0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getBoxCSS)(style?.tabileRowStyle?.priceStyle?.periodMargin?.desktop))}
+		}
+		${description}{
+		  color:${style?.tabileRowStyle?.priceStyle?.descriptionColor};
+		}
+		${featuresSection}{
+		  background: ${style?.tabileRowStyle?.featuresSectionStyle?.featuresBackgroundColor?.includes('gradient') ? style?.tabileRowStyle?.featuresSectionStyle?.featuresBackgroundColor : `${style?.tabileRowStyle?.featuresSectionStyle?.featuresBackgroundColor}`};
+		  ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.isValidCSS)("padding", (0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getBoxCSS)(style?.tabileRowStyle?.featuresSectionStyle?.featuresPadding?.desktop))}
 		
+		}
+		${featureList}{
+		  gap:${style?.tabileRowStyle?.featuresSectionStyle?.featurelistGap};
+		  grid-template-columns: repeat(${featuresColumn}, 1fr);
+		}
+        ${feaTtem}{
+		 color:${style?.tabileRowStyle?.featuresSectionStyle?.featureColor};
+		}
+		${checkmark}{
+		  height:${style?.tabileRowStyle?.featuresSectionStyle?.checkmarkWidth};
+		  width:${style?.tabileRowStyle?.featuresSectionStyle?.checkmarkWidth};
+		}
+        ${generateIconFillCSS()}
+		${actionSection}{
+		  background: ${style?.tabileRowStyle?.featuresSectionStyle?.featuresBackgroundColor?.includes('gradient') ? style?.tabileRowStyle?.featuresSectionStyle?.featuresBackgroundColor : `${style?.tabileRowStyle?.featuresSectionStyle?.featuresBackgroundColor}`};
+		}
+		${getStarted}{
+		  color:${style?.tabileRowStyle?.actionStyle?.getStartedColor};
+		  box-shadow:${buttonShadowValue};
+		  background: ${style?.tabileRowStyle?.actionStyle?.getStartedBgColor?.includes('gradient') ? style?.tabileRowStyle?.actionStyle?.getStartedBgColor : `${style?.tabileRowStyle?.actionStyle?.getStartedBgColor}`};
+		  ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.isValidCSS)("border-radius", (0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getBoxCSS)(style?.tabileRowStyle?.actionStyle?.getStartedRadius))}
+		  ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.isValidCSS)("padding", (0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getBoxCSS)(style?.tabileRowStyle?.actionStyle?.getStartedPadding?.desktop))}
+		}
+		${linka}:hover .get-started{
+		   background-color: ${style?.tabileRowStyle?.actionStyle?.getStartedBgHover}!important;
+		   color:${style?.tabileRowStyle?.actionStyle?.getStartedBgHoverTextColor};
+		}
+        ${featured}{
+		  background: ${style?.tabileRowStyle?.featuredStyle?.featuredBgColor?.includes('gradient') ? style?.tabileRowStyle?.featuredStyle?.featuredBgColor : `${style?.tabileRowStyle?.featuredStyle?.featuredBgColor}`};
+		  ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.isValidCSS)("border-radius", (0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getBoxCSS)(style?.tabileRowStyle?.featuredStyle?.featuredRadius))}
+		  border: ${style?.tabileRowStyle?.featuredStyle?.featuredBorder?.width} ${style?.tabileRowStyle?.featuredStyle?.featuredBorder?.style} ${style?.tabileRowStyle?.featuredStyle?.featuredBorder?.color};
+		  box-shadow:${featuredShadowValue};
+		}
+		${featuredCardSection}{
+		 ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.isValidCSS)("padding", (0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getBoxCSS)(style?.tabileRowStyle?.featuredStyle?.featuredPadding?.desktop))}
+		}
+		${featuredCardH2}{
+		 color:${style?.tabileRowStyle?.featuredStyle?.featuredTitleColor};
+		 ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.isValidCSS)("margin", (0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getBoxCSS)(style?.tabileRowStyle?.featuredStyle?.featuredTitleMargin?.desktop))}
+		}
+		${featuredPrice}{
+           ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.isValidCSS)("margin", (0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getBoxCSS)(style?.tabileRowStyle?.featuredStyle?.featuredPriceMarging?.desktop))}
+		}
+        ${featuredAmount}{
+		   color:${style?.tabileRowStyle?.featuredStyle?.featuredAmountColor};
+		}
+		${featuredAmount} svg{
+		  height:${style?.tabileRowStyle?.featuredStyle?.featuredPriceIconWidth};
+		  fill:${style?.tabileRowStyle?.featuredStyle?.featuredPriceIconColor};
+		}
+		${featuredPeriod}{
+		  color:${style?.tabileRowStyle?.featuredStyle?.featuredPeriodColor};
+		  ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.isValidCSS)("margin", (0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getBoxCSS)(style?.tabileRowStyle?.featuredStyle?.featuredPeriodMargin?.desktop))}
+		}
+		${featuredDescription}{
+		  color:${style?.tabileRowStyle?.featuredStyle?.featuredDescriptionColor};
+		}
+		${featuredSection}{
+		 ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.isValidCSS)("padding", (0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getBoxCSS)(style?.tabileRowStyle?.featuredStyle?.featuredFeatureSectionStyle?.featuresPadding?.desktop))}
+		  background: ${style?.tabileRowStyle?.featuredStyle?.featuredFeatureSectionStyle?.featuresBackgroundColor?.includes('gradient') ? style?.tabileRowStyle?.featuredStyle?.featuredFeatureSectionStyle?.featuresBackgroundColor : `${style?.tabileRowStyle?.featuredStyle?.featuredFeatureSectionStyle?.featuresBackgroundColor}`};
+		}
+		${featuredList}{
+		  gap:${style?.tabileRowStyle?.featuredStyle?.featuredFeatureSectionStyle?.featurelistGap};
+		  grid-template-columns: repeat(${featuresColumn}, 1fr);
+		}
+		${featuredCheckmark}{
+		  height:${style?.tabileRowStyle?.featuredStyle?.featuredFeatureSectionStyle?.checkmarkWidth};
+		  width:${style?.tabileRowStyle?.featuredStyle?.featuredFeatureSectionStyle?.checkmarkWidth};
+		}
+		${featuredFeaItem}{
+		 color: ${style?.tabileRowStyle?.featuredStyle?.featuredFeatureSectionStyle?.featureColor};
+		}
+		${featuredActionSection}{
+		  background: ${style?.tabileRowStyle?.featuredStyle?.featuredFeatureSectionStyle?.featuresBackgroundColor?.includes('gradient') ? style?.tabileRowStyle?.featuredStyle?.featuredFeatureSectionStyle?.featuresBackgroundColor : `${style?.tabileRowStyle?.featuredStyle?.featuredFeatureSectionStyle?.featuresBackgroundColor}`};
+		}
+		${featuredGetStarted}{
+		 color:${style?.tabileRowStyle?.featuredStyle?.actionStyle?.getStartedColor};
+		 box-shadow:${featuredButtonShadowValue};
+		 background: ${style?.tabileRowStyle?.featuredStyle?.actionStyle?.getStartedBgColor?.includes('gradient') ? style?.tabileRowStyle?.featuredStyle?.actionStyle?.getStartedBgColor : `${style?.tabileRowStyle?.featuredStyle?.actionStyle?.getStartedBgColor}`};
+		 ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.isValidCSS)("border-radius", (0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getBoxCSS)(style?.tabileRowStyle?.featuredStyle?.actionStyle?.getStartedRadius))}
+		 ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.isValidCSS)("padding", (0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getBoxCSS)(style?.tabileRowStyle?.featuredStyle?.actionStyle?.getStartedPadding?.desktop))}
+		}
+		${featuredlinka}:hover .get-started{
+		  background-color: ${style?.tabileRowStyle?.featuredStyle?.actionStyle?.getStartedBgHoverBg}!important;
+		  color:${style?.tabileRowStyle?.featuredStyle?.actionStyle?.getStartedTextHoverColor};
+		}
+		${footerContent}{
+		
+		}
+        ${footerh3}{
+	     color:${style?.tabileRowStyle?.footerStyle?.footerTitleColor};
+        }
+		${footerp}{
+		  color:${style?.tabileRowStyle?.footerStyle?.footerDesColor};
+		  ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.isValidCSS)("margin", (0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getBoxCSS)(style?.tabileRowStyle?.footerStyle?.footerDesMargin?.desktop))}
+		}
+	    ${footerIconText}{
+		  color:${style?.tabileRowStyle?.footerStyle?.footerIconTextColor};
+	    }
+	    ${footerIconText}:hover{
+		  color:${style?.tabileRowStyle?.footerStyle?.footerIconTextHoverColor};
+	    }
+        ${footerIcons} svg{
+		  height:${style?.tabileRowStyle?.footerStyle?.footerIconWidth};
+		  width:${style?.tabileRowStyle?.footerStyle?.footerIconWidth};
+		  fill:${style?.tabileRowStyle?.footerStyle?.footerIconHoverColor};
+		}
+
+
+
+
+
+	    @media only screen and (min-width: 641px) and (max-width: 1024px) {
+		  ${cardSection}{
+             ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.isValidCSS)("padding", (0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getBoxCSS)(style?.tabileRowStyle?.tablePadding?.tablet))}
+		  }
+		  ${cardH2}{
+		    ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.isValidCSS)("margin", (0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getBoxCSS)(style?.tabileRowStyle?.titleStyle?.titleMargin?.tablet))}
+		  }
+		  ${price}{
+		    ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.isValidCSS)("margin", (0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getBoxCSS)(style?.tabileRowStyle?.priceStyle?.priceMarging?.tablet))}
+		  }
+		  ${period}{
+		   ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.isValidCSS)("margin", (0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getBoxCSS)(style?.tabileRowStyle?.priceStyle?.periodMargin?.tablet))}
+		  }
+		  ${featuresSection}{
+		   ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.isValidCSS)("padding", (0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getBoxCSS)(style?.tabileRowStyle?.featuresSectionStyle?.featuresPadding?.tablet))}
+		  }
+		  ${getStarted}{
+		   ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.isValidCSS)("padding", (0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getBoxCSS)(style?.tabileRowStyle?.actionStyle?.getStartedPadding?.tablet))}
+		  }
+		  ${featuredCardH2}{
+		   ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.isValidCSS)("margin", (0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getBoxCSS)(style?.tabileRowStyle?.featuredStyle?.featuredTitleMargin?.tablet))}
+		  }
+		  ${featuredPrice}{
+           ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.isValidCSS)("margin", (0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getBoxCSS)(style?.tabileRowStyle?.featuredStyle?.featuredPriceMarging?.tablet))}
+		  }
+		  ${featuredPeriod}{
+		   ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.isValidCSS)("margin", (0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getBoxCSS)(style?.tabileRowStyle?.featuredStyle?.featuredPeriodMargin?.tablet))}
+		  }
+		  ${featuredSection}{
+		    ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.isValidCSS)("padding", (0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getBoxCSS)(style?.tabileRowStyle?.featuredStyle?.featuredFeatureSectionStyle?.featuresPadding?.tablet))}
+		  }
+
+		 ${featuredGetStarted}{
+		 	${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.isValidCSS)("padding", (0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getBoxCSS)(style?.tabileRowStyle?.featuredStyle?.actionStyle?.getStartedPadding?.tablet))}
+		 }
+		 ${footerp}{
+		  ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.isValidCSS)("margin", (0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getBoxCSS)(style?.tabileRowStyle?.footerStyle?.footerDesMargin?.tablet))}
+		 }
+		}
+
+	    @media only screen and (max-width: 641px) {
+		  ${cardSection}{
+		    ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.isValidCSS)("padding", (0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getBoxCSS)(style?.tabileRowStyle?.tablePadding?.mobile))}
+		  }
+		  ${cardH2}{
+		    ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.isValidCSS)("margin", (0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getBoxCSS)(style?.tabileRowStyle?.titleStyle?.titleMargin?.mobile))}
+		  }
+		  ${price}{
+		   ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.isValidCSS)("margin", (0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getBoxCSS)(style?.tabileRowStyle?.priceStyle?.priceMarging?.mobile))}
+		  }
+		  ${period}{
+		   ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.isValidCSS)("margin", (0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getBoxCSS)(style?.tabileRowStyle?.priceStyle?.periodMargin?.mobile))}
+		  }
+		  ${featuresSection}{
+		   ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.isValidCSS)("padding", (0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getBoxCSS)(style?.tabileRowStyle?.featuresSectionStyle?.featuresPadding?.mobile))}
+		  }
+		  ${getStarted}{
+		   ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.isValidCSS)("padding", (0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getBoxCSS)(style?.tabileRowStyle?.actionStyle?.getStartedPadding?.mobile))}
+		 }
+		 ${featuredCardH2}{
+		   ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.isValidCSS)("margin", (0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getBoxCSS)(style?.tabileRowStyle?.featuredStyle?.featuredTitleMargin?.mobile))}
+	     }
+		 ${featuredPrice}{
+           ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.isValidCSS)("margin", (0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getBoxCSS)(style?.tabileRowStyle?.featuredStyle?.featuredPriceMarging?.mobile))}
+		  }
+		  ${featuredPeriod}{
+		   ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.isValidCSS)("margin", (0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getBoxCSS)(style?.tabileRowStyle?.featuredStyle?.featuredPeriodMargin?.mobile))}
+		  }
+		  ${featuredSection}{
+		    ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.isValidCSS)("padding", (0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getBoxCSS)(style?.tabileRowStyle?.featuredStyle?.featuredFeatureSectionStyle?.featuresPadding?.mobile))}
+		  }
+		 ${featuredGetStarted}{
+		 	${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.isValidCSS)("padding", (0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getBoxCSS)(style?.tabileRowStyle?.featuredStyle?.actionStyle?.getStartedPadding?.mobile))}
+		 }
+		 ${footerp}{
+		  ${(0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.isValidCSS)("margin", (0,_bpl_tools_utils_getCSS__WEBPACK_IMPORTED_MODULE_1__.getBoxCSS)(style?.tabileRowStyle?.footerStyle?.footerDesMargin?.mobile))}
+		 }
+		}
 
 	`
     }

@@ -9,6 +9,50 @@
   font-weight: 700;
 }
 
+.wp-block-bptb-horizontal-pricing-table .button-wrapper {
+  width: 100%;
+  border: none;
+}
+.wp-block-bptb-horizontal-pricing-table .addButton {
+  width: 100%;
+  background-color: #4527a4;
+  text-align: center;
+  display: block;
+  color: rgb(244, 247, 248);
+  font-size: 14px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  cursor: pointer;
+}
+.wp-block-bptb-horizontal-pricing-table .featuresButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+.wp-block-bptb-horizontal-pricing-table .featuresButton .duplicate {
+  display: flex;
+  justify-Content: center;
+  align-items: center;
+  width: 50%;
+  background-color: #4527a4;
+  padding: 5px;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+.wp-block-bptb-horizontal-pricing-table .featuresButton .remove {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  background-color: rgba(221, 21, 24, 0.968627451);
+  padding: 5px;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
 .wp-block-bptb-horizontal-pricing-table .selectHelp {
   color: #616063;
 }

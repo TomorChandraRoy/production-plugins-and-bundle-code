@@ -1,0 +1,228 @@
+$primaryColor: #4527a4;
+
+// Dashicon
+.dashicons {
+	font-family: dashicons !important;
+}
+
+@for $i from 1 through 12 {
+	.columns-#{$i} {
+		grid-template-columns: repeat(#{$i}, minmax(240px, 1fr));
+	}
+}
+
+@media (max-width: 768px) {
+	@for $i from 1 through 12 {
+		.columns-tablet-#{$i} {
+			grid-template-columns: repeat(#{$i}, minmax(240px, 1fr));
+		}
+	}
+}
+
+@media (max-width: 576px) {
+	@for $i from 1 through 12 {
+		.columns-mobile-#{$i} {
+			grid-template-columns: repeat(#{$i}, minmax(240px, 1fr));
+		}
+	}
+}
+
+$prefix: 'bptbPricingTables';
+
+.wp-block-bptb-pricing-table {
+	* {
+		box-sizing: border-box;
+	}
+
+	a {
+		text-decoration: none !important;
+	}
+
+	.#{$prefix} {
+		display: grid;
+	}
+
+	.priceItem {
+		height: 100%;
+		background-color: #fff;
+		display: flex;
+		flex-direction: column;
+		border-radius: 20px;
+
+		h3,
+		p {
+			margin: 0;
+		}
+
+		.priceName {
+			font-size: 25px;
+			margin-bottom: 25px;
+		}
+
+		.priceAmountWrap {
+			font-size: 22px;
+			margin-bottom: 25px;
+		}
+
+		.priceFeatures {
+			display: inline-block;
+			margin: 0 auto auto auto;
+
+			.priceFeature {
+				display: flex;
+				align-items: center;
+				margin-bottom: 15px;
+
+				svg {
+					margin-right: 10px;
+				}
+
+				.priceFeatureEnabled {
+					width: 17px;
+					height: 17px;
+				}
+
+				.priceFeatureDisabled {
+					width: 13px;
+					height: 19px;
+					margin-right: 14px;
+				}
+
+				.priceFeatureLabel {
+					font-size: 15px;
+				}
+			}
+		}
+
+		.priceLink {
+			width: fit-content;
+			align-self: center;
+			display: inline-block;
+			padding: 10px 35px;
+			border-radius: 8px;
+		}
+	}
+
+	&.is-style-basic {
+		.priceItem {
+			position: relative;
+
+			.priceName {
+				position: absolute;
+				left: 0;
+				top: 0;
+				width: 100%;
+				height: 85px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				border-top-left-radius: 20px;
+				border-top-right-radius: 20px;
+
+				&::before {
+					content: '';
+					position: absolute;
+					display: inline-block;
+					border: 10px solid transparent;
+					left: 50%;
+					bottom: -20px;
+					transform: translateX(-50%);
+				}
+			}
+
+			.priceFeatures {
+				margin-top: 100px;
+			}
+
+			.priceAmountWrap {
+				font-size: 50px;
+				position: relative;
+				margin-top: 45px;
+
+				&::before {
+					content: '';
+					width: 120px;
+					border-top: 2px solid #dfdfdf;
+					position: absolute;
+					left: 50%;
+					top: -20px;
+					transform: translateX(-50%);
+				}
+			}
+		}
+	}
+
+	&.is-style-standard {
+		.#{$prefix} {
+			>div {
+				z-index: 1;
+			}
+		}
+
+		.priceItem {
+			position: relative;
+
+			&::before {
+				content: '';
+				position: absolute;
+				width: 90%;
+				height: 110%;
+				border-radius: 20px;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				z-index: -1;
+			}
+
+			.priceName {
+				font-size: 45px;
+			}
+
+			.priceAmountWrap {
+				font-size: 24px;
+			}
+		}
+	}
+
+	&.is-style-ultimate {
+		.#{$prefix} {
+			>div {
+				position: relative;
+				z-index: 1;
+			}
+		}
+
+		.priceItem {
+			margin-left: 60px;
+
+			.priceName {
+				font-size: 45px;
+			}
+
+			.priceAmountWrap {
+				font-size: 24px;
+				line-height: 100%;
+				width: 300px;
+				height: 60px;
+				position: absolute;
+				left: -90px;
+				top: 150px;
+				transform: rotate(-90deg) translate(0, -30px);
+				margin-bottom: 0;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				border-top-left-radius: 20px;
+				border-top-right-radius: 20px;
+
+				.priceAmount {
+					margin-right: 5px;
+				}
+
+				.pricePeriod {
+					margin-left: 5px;
+				}
+			}
+		}
+	}
+}

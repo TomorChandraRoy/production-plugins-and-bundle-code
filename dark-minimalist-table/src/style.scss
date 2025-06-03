@@ -1,0 +1,353 @@
+$primaryColor: #4527a4;
+
+.wp-block-bptb-dark-minimalist-table {
+	box-sizing: border-box;
+
+	* {
+		box-sizing: border-box;
+	}
+
+  .pTableDarkMinimalist {
+    .main-container {
+	    .pricing-wrapper {
+			width: 100%;
+			// max-width: 1200px; done
+			margin: 0 auto;
+			.pricing-container {
+				padding: 37px;
+				.pricing-grid {
+					display: grid;
+					// grid-template-columns: 1fr; done
+					gap: 35px;
+					align-items: stretch;
+
+					.pricing-card {
+						position: relative;
+						// background: #212529; done
+						// border-radius: 1rem; done
+						// padding: 2rem; done
+						display: flex;
+						flex-direction: column;
+						transition: all 0.3s ease;
+						.card-header {
+							display: flex;
+							align-items: baseline;
+							gap: 0.75rem;
+							.icon svg {
+								// width: 1.25rem;
+								// height: 1.25rem;
+								// color: #a1a1aa;
+								// fill: #a1a1aa;
+							}
+							.plan-name {
+								// color: #ffffff;
+								// font-size: 24px;
+								// font-weight: 700;
+								margin: 0px;
+							}
+						}
+						.price-section {
+						position: relative;
+						// margin-bottom: 16px;
+							.price-container {
+									display: flex;
+									align-items: end;
+									margin-bottom: 15px;
+									margin-top: 15px;
+									.price-currency{
+										display:flex; 
+										align-items: center;
+										gap: 4px;
+										.currency{
+											margin-top: 7px; 
+											font-weight:bold; 
+											// fill:#ffffff; done
+										}
+										.currency svg{
+											// height: 14px; //done
+										}
+										.price {
+											// color: #ffffff; done
+											// font-size: 3.75rem; done
+											// font-weight: 700; done
+											// line-height: 1; done
+											@media (max-width: 767px) {
+												// font-size: 3rem; done
+											}
+										}
+									}
+									.period {
+									// color: #a1a1aa; done
+									// font-size: 1.125rem; done
+									// margin-bottom: 8px; done
+									}
+							}
+						}
+						.description {
+							// color: #a1a1aa;done
+							// font-size: 16px; done
+							// line-height: 1.5; done
+							// margin-bottom: 20px; done
+							// margin-top: 0px; done
+							// font-weight: 600; done
+							max-width: 352px;
+						}
+						.features {
+						display: flex;
+						flex-direction: column;
+						// gap: 1px; done
+						margin-bottom: 2rem;
+						flex-grow: 1;
+							.feature {
+								display: flex;
+								align-items: center;
+								// gap: 12px; done
+								.check-icons svg {
+									// width: 1rem; done
+									// height: 1rem; done
+									// fill: #f2f3f1; done
+									flex-shrink: 0;
+									margin: 0;
+								}
+								.feature-text{
+									// color: #f3f3f5; //done 
+									// font-size: 14px; done 
+									// font-weight: 500; done
+									// font-family: "Manrope"; done
+								}
+							}
+						}
+						.buy-button {
+							width: 100%;
+							// background: #2B3035; done
+							// color: #c7f32f; done
+							border: none;
+							// border-radius: 0.5rem; done 
+							// padding: 0.75rem 1rem; done
+							// font-family: "Manrope"; done
+							// font-weight: 700; done
+							// font-size: 16px; done
+							display: flex;
+							align-items: center;
+							justify-content: center;
+							gap: 0.5rem;
+							cursor: pointer;
+							transition: all 0.7s ease;
+							margin-top: auto;
+							outline: none;
+							text-decoration: none;
+							.link-a {
+							text-decoration: none;
+							outline: none;
+							}
+							.arrow-icon svg{
+								// width: 1rem; done
+								// height: 1rem; done
+								// fill:#c7f32f; done
+								vertical-align: middle;
+								transition: fill 0.7s ease;
+								
+							}
+							&:hover {
+							//  background: #c7f32f; done
+							//  color: #000000; done
+							 .arrow-icon svg {
+                            //    fill: #000000; done
+                             }
+							}
+
+						}
+						@media (max-width: 767px) {
+					     padding: 1.5rem;
+				        }
+					}
+
+					// Popular Plan Styles
+					.popular {
+						position: relative;
+						// background: radial-gradient(circle at top left,rgb(80 112 29 / 81%) 20px,#212529 212px);
+						// border: 1px solid #0b0b85;
+						// border-radius: 1rem;
+						// padding: 2rem;
+						margin-top: -2rem;
+						display: flex;
+						flex-direction: column;
+						transition: all 0.3s ease;
+						.popular-badge {
+						// background: #4d4f49; done
+						// color: #c7f32f; done
+						// font-size: 12px; done
+						// font-weight: 600; done
+						// padding: 4px 8px; done
+						// border-radius: 4px; done
+						margin-left: auto;
+						}
+						.card-header {
+							display: flex;
+							align-items: baseline;
+							gap: 0.75rem;
+							.icon svg {
+								// width: 1.25rem;  done all
+								// height: 1.25rem;
+								// color: #a1a1aa;
+								// fill: #a1a1aa;
+							}
+							.plan-name {
+								// color: #ffffff; done all
+								// font-size: 24px;
+								// font-weight: 700;
+								margin: 0px;
+							}
+						}
+						.price-section {
+						position: relative;
+						// margin-bottom: 16px;
+							.price-container {
+									display: flex;
+									align-items: end;
+									margin-bottom: 15px;
+									margin-top: 15px;
+									.price-currency{
+										display:flex; 
+										align-items: center;
+										gap: 4px;
+										.currency{
+											margin-top: 7px; 
+											font-weight:bold; 
+											// fill:#ffffff; done
+										}
+										.currency svg{
+											// height: 20px; done
+										}
+										.price {
+											// color: #ffffff; all done
+											// font-size: 3.75rem;
+											// font-weight: 700;
+											// line-height: 1;
+											@media (max-width: 767px) {
+												// font-size: 3rem;
+											}
+										}
+									}
+									.period {
+										// color: #a1a1aa;  all done
+										// font-size: 1.125rem;
+										// margin-bottom: 8px;
+									}
+							}
+						}
+						.description {
+							// color: #a1a1aa; all done
+							// font-size: 16px;
+							// line-height: 1.5;
+							// margin-bottom: 20px;
+							// margin-top: 0px;
+							// font-weight: 600;
+							max-width: 352px;
+						}
+						.features {
+						display: flex;
+						flex-direction: column;
+						// gap: 1px; done
+						margin-bottom: 2rem;
+						flex-grow: 1;
+							.feature {
+								display: flex;
+								align-items: center;
+								// gap: 0.75rem; done
+								.check-icons svg {
+									// width: 1rem; done
+									// height: 1rem; done
+									// fill: #f2f3f1;
+									flex-shrink: 0;
+									margin: 0;
+								}
+								.feature-text{ 
+									// color: #f3f3f5; all done
+									// font-size: 14px;
+									// font-weight: 500;
+									// font-family: "Manrope";
+								}
+							}
+						}
+
+						.buy-button {
+							width: 100%;
+							// background: #2B3035;
+							// color: #c7f32f;
+							border: none;
+							// border-radius: 0.5rem; done
+							// padding: 0.75rem 1rem; done
+							// font-family: "Manrope"; done
+							// font-weight: 700; done
+							// font-size: 16px; done
+							display: flex;
+							align-items: center;
+							justify-content: center;
+							gap: 0.5rem;
+							cursor: pointer;
+							transition: all 0.7s ease;
+							margin-top: auto;
+							outline: none;
+							text-decoration: none;
+							.link-a {
+							text-decoration: none;
+							outline: none;
+							}
+							.arrow-icon svg{
+								// width: 1rem; all done
+								// height: 1rem;
+								// fill:#c7f32f;
+								vertical-align: middle;
+								transition: fill 0.7s ease;
+								
+							}
+							&:hover {
+							//  background: #c7f32f; done
+							//  color: #000000; done
+							 .arrow-icon svg {
+                            //    fill: #000000; done
+                             }
+							}
+
+						}
+						.popular-button {
+						//    background: #c7f32f; all done
+						//    color: #000000;
+							.arrow-icon svg{
+								// width: 1rem; all done
+								// height: 1rem;
+								// fill:#070802;
+							}
+						&:hover {
+							// background: #b3da28; done
+							
+						}
+						}
+						@media (max-width: 767px) {
+					     padding: 1.5rem;
+				        }
+					}
+
+
+					/* Responsive Design */
+					@media (min-width: 768px) {
+					//  grid-template-columns: repeat(2, 1fr); done
+					//  gap: 5px; done
+					}
+					@media (min-width: 1024px) {
+					//  grid-template-columns: repeat(3, 1fr); done
+					//  gap:0px; done
+					}
+				}
+				@media (max-width: 767px) {
+					padding: 1rem;
+				}
+			}
+	    }
+    }
+  }
+}
+
+
+

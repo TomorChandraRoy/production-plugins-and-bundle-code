@@ -1,0 +1,621 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "bptb/dark-pricing-table",
+  "version": "1.0.0",
+  "title": "Dark Pricing Table",
+  "category": "widgets",
+  "description": "Show product prices in a dark themed table",
+  "keywords": [
+    "dark pricing table",
+    "pricing table",
+    "pricing",
+    "price list",
+    "table",
+    "dark"
+  ],
+  "textdomain": "b-pricing-table",
+  "attributes": {
+    "darkPricingTable": {
+      "type": "array",
+      "default": [
+        {
+          "title": "Freelancer",
+          "popularTitle": "Most popular",
+          "popularToggle": false,
+          "price": "24",
+          "priceCurrency": "<svg xmlns=\"http://www.w3.org/2000/svg\" height=\"48\" viewBox=\"0 0 16.202 30\" xml:space=\"preserve\"><path d=\"M16.202 19.432c0-3.313-1.768-5.338-6.15-6.885-3.129-1.178-4.418-1.951-4.418-3.166 0-1.031.773-2.063 3.166-2.063 1.423 0 2.569.243 3.476.532a1.844 1.844 0 0 0 2.346-1.3l.02-.077a2.346 2.346 0 0 0-1.719-2.863c-.823-.2-1.788-.344-2.923-.405V1a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v2.511c-3.798.826-6 3.319-6 6.495 0 3.572 2.688 5.412 6.628 6.738 2.725.921 3.902 1.805 3.902 3.203 0 1.474-1.436 2.283-3.534 2.283-1.504 0-2.92-.306-4.148-.742a1.94 1.94 0 0 0-2.534 1.347l-.009.032a2.454 2.454 0 0 0 1.675 2.958c1.195.358 2.594.608 4.02.674V29a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-2.843c4-.831 6.202-3.545 6.202-6.725\"/><g/></svg>",
+          "period": "/month",
+          "description": "For independent professionals",
+          "features": [
+            {
+              "title": "1 user",
+              "icon": "<svg height=\"30\" viewBox=\"0 0 24 24\" fill=\"#6366f1\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M20.664 5.253a1 1 0 0 1 .083 1.411l-10.666 12a1 1 0 0 1-1.495 0l-5.333-6a1 1 0 0 1 1.494-1.328l4.586 5.159 9.92-11.16a1 1 0 0 1 1.411-.082\"/></svg>",
+              "iconColor": "#6366f1"
+            },
+            {
+              "title": "5 projects",
+              "icon": "<svg height=\"30\" viewBox=\"0 0 24 24\" fill=\"#6366f1\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M20.664 5.253a1 1 0 0 1 .083 1.411l-10.666 12a1 1 0 0 1-1.495 0l-5.333-6a1 1 0 0 1 1.494-1.328l4.586 5.159 9.92-11.16a1 1 0 0 1 1.411-.082\"/></svg>",
+              "iconColor": "#6366f1"
+            },
+            {
+              "title": "10GB storage",
+              "icon": "<svg height=\"30\" viewBox=\"0 0 24 24\" fill=\"#6366f1\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M20.664 5.253a1 1 0 0 1 .083 1.411l-10.666 12a1 1 0 0 1-1.495 0l-5.333-6a1 1 0 0 1 1.494-1.328l4.586 5.159 9.92-11.16a1 1 0 0 1 1.411-.082\"/></svg>",
+              "iconColor": "#6366f1"
+            },
+            {
+              "title": "Basic analytics",
+              "icon": "<svg height=\"30\" viewBox=\"0 0 24 24\" fill=\"#6366f1\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M20.664 5.253a1 1 0 0 1 .083 1.411l-10.666 12a1 1 0 0 1-1.495 0l-5.333-6a1 1 0 0 1 1.494-1.328l4.586 5.159 9.92-11.16a1 1 0 0 1 1.411-.082\"/></svg>",
+              "iconColor": "#6366f1"
+            },
+            {
+              "title": "Email support",
+              "icon": "<svg height=\"30\" viewBox=\"0 0 24 24\" fill=\"#6366f1\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M20.664 5.253a1 1 0 0 1 .083 1.411l-10.666 12a1 1 0 0 1-1.495 0l-5.333-6a1 1 0 0 1 1.494-1.328l4.586 5.159 9.92-11.16a1 1 0 0 1 1.411-.082\"/></svg>",
+              "iconColor": "#6366f1"
+            }
+          ],
+          "buttonName": "Choose plan",
+          "buttonLink": "https://bplugins.com/",
+          "buttonNewTab": false
+        },
+        {
+          "title": "Agency",
+          "popularTitle": "Most popular",
+          "popularToggle": true,
+          "price": "49",
+          "priceCurrency": "<svg xmlns=\"http://www.w3.org/2000/svg\" height=\"48\" viewBox=\"0 0 16.202 30\" xml:space=\"preserve\"><path d=\"M16.202 19.432c0-3.313-1.768-5.338-6.15-6.885-3.129-1.178-4.418-1.951-4.418-3.166 0-1.031.773-2.063 3.166-2.063 1.423 0 2.569.243 3.476.532a1.844 1.844 0 0 0 2.346-1.3l.02-.077a2.346 2.346 0 0 0-1.719-2.863c-.823-.2-1.788-.344-2.923-.405V1a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v2.511c-3.798.826-6 3.319-6 6.495 0 3.572 2.688 5.412 6.628 6.738 2.725.921 3.902 1.805 3.902 3.203 0 1.474-1.436 2.283-3.534 2.283-1.504 0-2.92-.306-4.148-.742a1.94 1.94 0 0 0-2.534 1.347l-.009.032a2.454 2.454 0 0 0 1.675 2.958c1.195.358 2.594.608 4.02.674V29a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-2.843c4-.831 6.202-3.545 6.202-6.725\"/><g/></svg>",
+          "period": "/month",
+          "description": "For small creative teams",
+          "features": [
+            {
+              "title": "10 users",
+              "icon": "<svg height=\"30\" viewBox=\"0 0 24 24\" fill=\"#6366f1\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M20.664 5.253a1 1 0 0 1 .083 1.411l-10.666 12a1 1 0 0 1-1.495 0l-5.333-6a1 1 0 0 1 1.494-1.328l4.586 5.159 9.92-11.16a1 1 0 0 1 1.411-.082\"/></svg>",
+              "iconColor": "#6366f1"
+            },
+            {
+              "title": "Unlimited projects",
+              "icon": "<svg height=\"30\" viewBox=\"0 0 24 24\" fill=\"#6366f1\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M20.664 5.253a1 1 0 0 1 .083 1.411l-10.666 12a1 1 0 0 1-1.495 0l-5.333-6a1 1 0 0 1 1.494-1.328l4.586 5.159 9.92-11.16a1 1 0 0 1 1.411-.082\"/></svg>",
+              "iconColor": "#6366f1"
+            },
+            {
+              "title": "100GB storage",
+              "icon": "<svg height=\"30\" viewBox=\"0 0 24 24\" fill=\"#6366f1\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M20.664 5.253a1 1 0 0 1 .083 1.411l-10.666 12a1 1 0 0 1-1.495 0l-5.333-6a1 1 0 0 1 1.494-1.328l4.586 5.159 9.92-11.16a1 1 0 0 1 1.411-.082\"/></svg>",
+              "iconColor": "#6366f1"
+            },
+            {
+              "title": "Advanced analytics",
+              "icon": "<svg height=\"30\" viewBox=\"0 0 24 24\" fill=\"#6366f1\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M20.664 5.253a1 1 0 0 1 .083 1.411l-10.666 12a1 1 0 0 1-1.495 0l-5.333-6a1 1 0 0 1 1.494-1.328l4.586 5.159 9.92-11.16a1 1 0 0 1 1.411-.082\"/></svg>",
+              "iconColor": "#6366f1"
+            },
+            {
+              "title": "Priority support",
+              "icon": "<svg height=\"30\" viewBox=\"0 0 24 24\" fill=\"#6366f1\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M20.664 5.253a1 1 0 0 1 .083 1.411l-10.666 12a1 1 0 0 1-1.495 0l-5.333-6a1 1 0 0 1 1.494-1.328l4.586 5.159 9.92-11.16a1 1 0 0 1 1.411-.082\"/></svg>",
+              "iconColor": "#6366f1"
+            },
+            {
+              "title": "Team collaboration tools",
+              "icon": "<svg height=\"30\" viewBox=\"0 0 24 24\" fill=\"#6366f1\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M20.664 5.253a1 1 0 0 1 .083 1.411l-10.666 12a1 1 0 0 1-1.495 0l-5.333-6a1 1 0 0 1 1.494-1.328l4.586 5.159 9.92-11.16a1 1 0 0 1 1.411-.082\"/></svg>",
+              "iconColor": "#6366f1"
+            }
+          ],
+          "buttonName": "Choose plan",
+          "buttonLink": "https://bplugins.com/",
+          "buttonNewTab": false,
+          "popular": true
+        },
+        {
+          "title": "Enterprise",
+          "popularTitle": "Most popular",
+          "popularToggle": false,
+          "price": "99",
+          "priceCurrency": "<svg xmlns=\"http://www.w3.org/2000/svg\" height=\"48\" viewBox=\"0 0 16.202 30\" xml:space=\"preserve\"><path d=\"M16.202 19.432c0-3.313-1.768-5.338-6.15-6.885-3.129-1.178-4.418-1.951-4.418-3.166 0-1.031.773-2.063 3.166-2.063 1.423 0 2.569.243 3.476.532a1.844 1.844 0 0 0 2.346-1.3l.02-.077a2.346 2.346 0 0 0-1.719-2.863c-.823-.2-1.788-.344-2.923-.405V1a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v2.511c-3.798.826-6 3.319-6 6.495 0 3.572 2.688 5.412 6.628 6.738 2.725.921 3.902 1.805 3.902 3.203 0 1.474-1.436 2.283-3.534 2.283-1.504 0-2.92-.306-4.148-.742a1.94 1.94 0 0 0-2.534 1.347l-.009.032a2.454 2.454 0 0 0 1.675 2.958c1.195.358 2.594.608 4.02.674V29a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-2.843c4-.831 6.202-3.545 6.202-6.725\"/><g/></svg>",
+          "period": "/month",
+          "description": "For larger organizations",
+          "features": [
+            {
+              "title": "Unlimited users",
+              "icon": "<svg height=\"30\" viewBox=\"0 0 24 24\" fill=\"#6366f1\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M20.664 5.253a1 1 0 0 1 .083 1.411l-10.666 12a1 1 0 0 1-1.495 0l-5.333-6a1 1 0 0 1 1.494-1.328l4.586 5.159 9.92-11.16a1 1 0 0 1 1.411-.082\"/></svg>",
+              "iconColor": "#6366f1"
+            },
+            {
+              "title": "Unlimited projects",
+              "icon": "<svg height=\"30\" viewBox=\"0 0 24 24\" fill=\"#6366f1\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M20.664 5.253a1 1 0 0 1 .083 1.411l-10.666 12a1 1 0 0 1-1.495 0l-5.333-6a1 1 0 0 1 1.494-1.328l4.586 5.159 9.92-11.16a1 1 0 0 1 1.411-.082\"/></svg>",
+              "iconColor": "#6366f1"
+            },
+            {
+              "title": "1TB storage",
+              "icon": "<svg height=\"30\" viewBox=\"0 0 24 24\" fill=\"#6366f1\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M20.664 5.253a1 1 0 0 1 .083 1.411l-10.666 12a1 1 0 0 1-1.495 0l-5.333-6a1 1 0 0 1 1.494-1.328l4.586 5.159 9.92-11.16a1 1 0 0 1 1.411-.082\"/></svg>",
+              "iconColor": "#6366f1"
+            },
+            {
+              "title": "Advanced analytics",
+              "icon": "<svg height=\"30\" viewBox=\"0 0 24 24\" fill=\"#6366f1\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M20.664 5.253a1 1 0 0 1 .083 1.411l-10.666 12a1 1 0 0 1-1.495 0l-5.333-6a1 1 0 0 1 1.494-1.328l4.586 5.159 9.92-11.16a1 1 0 0 1 1.411-.082\"/></svg>",
+              "iconColor": "#6366f1"
+            },
+            {
+              "title": "24/7 dedicated support",
+              "icon": "<svg height=\"30\" viewBox=\"0 0 24 24\" fill=\"#6366f1\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M20.664 5.253a1 1 0 0 1 .083 1.411l-10.666 12a1 1 0 0 1-1.495 0l-5.333-6a1 1 0 0 1 1.494-1.328l4.586 5.159 9.92-11.16a1 1 0 0 1 1.411-.082\"/></svg>",
+              "iconColor": "#6366f1"
+            },
+            {
+              "title": "Team collaboration tools",
+              "icon": "<svg height=\"30\" viewBox=\"0 0 24 24\" fill=\"#6366f1\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M20.664 5.253a1 1 0 0 1 .083 1.411l-10.666 12a1 1 0 0 1-1.495 0l-5.333-6a1 1 0 0 1 1.494-1.328l4.586 5.159 9.92-11.16a1 1 0 0 1 1.411-.082\"/></svg>",
+              "iconColor": "#6366f1"
+            },
+            {
+              "title": "Custom integration",
+              "icon": "<svg height=\"30\" viewBox=\"0 0 24 24\" fill=\"#6366f1\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M20.664 5.253a1 1 0 0 1 .083 1.411l-10.666 12a1 1 0 0 1-1.495 0l-5.333-6a1 1 0 0 1 1.494-1.328l4.586 5.159 9.92-11.16a1 1 0 0 1 1.411-.082\"/></svg>",
+              "iconColor": "#6366f1"
+            }
+          ],
+          "buttonName": "Contact us",
+          "buttonLink": "https://bplugins.com/",
+          "buttonNewTab": false
+        }
+      ]
+    },
+    "style": {
+      "type": "object",
+      "default": {
+        "layoutSize": "1600px",
+        "layoutCol": {
+          "desktop": 3,
+          "tablet": 1,
+          "mobile": 1
+        },
+        "layColumGap": {
+          "desktop": "0px",
+          "tablet": "0px",
+          "mobile": "0px"
+        },
+        "layRowGap": {
+          "desktop": "16px",
+          "tablet": "0",
+          "mobile": "0"
+        },
+        "priceCardRadius": {
+          "top": "0px",
+          "right": "0px",
+          "bottom": "0px",
+          "left": "0px"
+        },
+        "iconToggle": true,
+        "iconGobalColor": "#6366f1",
+        "pricingColBg": "#1f2937",
+        "pricingPadding": {
+          "desktop": {
+            "top": "32px",
+            "right": "32px",
+            "bottom": "32px",
+            "left": "32px"
+          },
+          "tablet": {
+            "top": "32px",
+            "right": "32px",
+            "bottom": "32px",
+            "left": "32px"
+          },
+          "mobile": {
+            "top": "32px",
+            "right": "32px",
+            "bottom": "32px",
+            "left": "32px"
+          }
+        },
+        "pricingTitleTypo": {
+          "fontFamily": "Manrope",
+          "fontCategory": "sans-serif",
+          "fontWeight": 700,
+          "fontSize": {
+            "desktop": 20,
+            "tablet": 20,
+            "mobile": 20
+          },
+          "fontStyle": "normal",
+          "textTransform": "none",
+          "textDecoration": "auto",
+          "lineHeight": "25px",
+          "letterSpace": "0px"
+        },
+        "pricingTitleColor": "#ffffff",
+        "currencyIconHeight": "48px",
+        "currencyIconColor": "#ffffff",
+        "pricingPriceTypo": {
+          "fontFamily": "Manrope",
+          "fontCategory": "sans-serif",
+          "fontWeight": 800,
+          "fontSize": {
+            "desktop": 48,
+            "tablet": 48,
+            "mobile": 48
+          },
+          "fontStyle": "normal",
+          "textTransform": "none",
+          "textDecoration": "auto",
+          "lineHeight": "40px",
+          "letterSpace": "0px"
+        },
+        "pricingPriceColor": "#ffffff",
+        "periodTypo": {
+          "fontFamily": "Manrope",
+          "fontCategory": "sans-serif",
+          "fontWeight": 300,
+          "fontSize": {
+            "desktop": 20,
+            "tablet": 20,
+            "mobile": 20
+          },
+          "fontStyle": "normal",
+          "textTransform": "none",
+          "textDecoration": "auto",
+          "lineHeight": "20px",
+          "letterSpace": "0px"
+        },
+        "periodColor": "#9ca3af",
+        "periodMargin": {
+          "desktop": {
+            "top": "25px",
+            "right": "0px",
+            "bottom": "0px",
+            "left": "4px"
+          },
+          "tablet": {
+            "top": "25px",
+            "right": "0px",
+            "bottom": "0px",
+            "left": "4px"
+          },
+          "mobile": {
+            "top": "25px",
+            "right": "0px",
+            "bottom": "0px",
+            "left": "4px"
+          }
+        },
+        "desTypo": {
+          "fontFamily": "Manrope",
+          "fontCategory": "sans-serif",
+          "fontWeight": 300,
+          "fontSize": {
+            "desktop": 22,
+            "tablet": 22,
+            "mobile": 22
+          },
+          "fontStyle": "normal",
+          "textTransform": "none",
+          "textDecoration": "auto",
+          "lineHeight": "20px",
+          "letterSpace": "0px"
+        },
+        "desColor": "#9ca3af",
+        "featureIconHeight": "30px",
+        "featureTypo": {
+          "fontFamily": "Manrope",
+          "fontCategory": "sans-serif",
+          "fontWeight": 300,
+          "fontSize": {
+            "desktop": 18,
+            "tablet": 18,
+            "mobile": 18
+          },
+          "fontStyle": "normal",
+          "textTransform": "none",
+          "textDecoration": "auto",
+          "lineHeight": "20px",
+          "letterSpace": "0px"
+        },
+        "featureColor": "#d1d5db",
+        "buttonRadius": {
+          "top": "8px",
+          "right": "8px",
+          "bottom": "8px",
+          "left": "8px"
+        },
+        "buttonPadding": {
+          "desktop": {
+            "top": "12px",
+            "right": "16px",
+            "bottom": "12px",
+            "left": "16px"
+          },
+          "tablet": {
+            "top": "12px",
+            "right": "16px",
+            "bottom": "12px",
+            "left": "16px"
+          },
+          "mobile": {
+            "top": "12px",
+            "right": "16px",
+            "bottom": "12px",
+            "left": "16px"
+          }
+        },
+        "buttonTextColor": "#ffffff",
+        "buttonTypo": {
+          "fontFamily": "Manrope",
+          "fontCategory": "sans-serif",
+          "fontWeight": 500,
+          "fontSize": {
+            "desktop": 16,
+            "tablet": 16,
+            "mobile": 16
+          },
+          "fontStyle": "normal",
+          "textTransform": "none",
+          "textDecoration": "auto",
+          "lineHeight": "20px",
+          "letterSpace": "0px"
+        },
+        "buttonBg": "#374151",
+        "buttonHoverBg": "#4b5563",
+        "buttonHoverTextColor": "#ffffff",
+        "buttonBorder": {
+          "color": "#4b5563",
+          "width": "1px",
+          "style": "solid"
+        },
+        "mostPopularStyle": {
+          "popluarButtonBg": "#6366f1",
+          "popularButtonTitleTypo": {
+            "fontFamily": "Manrope",
+            "fontCategory": "sans-serif",
+            "fontWeight": 500,
+            "fontSize": {
+              "desktop": 12,
+              "tablet": 12,
+              "mobile": 12
+            },
+            "fontStyle": "normal",
+            "textTransform": "none",
+            "textDecoration": "auto",
+            "lineHeight": "25px",
+            "letterSpace": "0px"
+          },
+          "popularButtonTitleColor": "#ffffff",
+          "popularButtonRadius": {
+            "top": "35px",
+            "right": "35px",
+            "bottom": "35px",
+            "left": "35px"
+          },
+          "popularButtonPadding": {
+            "desktop": {
+              "top": "4px",
+              "right": "12px",
+              "bottom": "4px",
+              "left": "12px"
+            },
+            "tablet": {
+              "top": "4px",
+              "right": "12px",
+              "bottom": "4px",
+              "left": "12px"
+            },
+            "mobile": {
+              "top": "4px",
+              "right": "12px",
+              "bottom": "4px",
+              "left": "12px"
+            }
+          },
+          "popularButtonMargin": {
+            "desktop": {
+              "top": "0px",
+              "right": "0px",
+              "bottom": "16px",
+              "left": "0px"
+            },
+            "tablet": {
+              "top": "0px",
+              "right": "0px",
+              "bottom": "16px",
+              "left": "0px"
+            },
+            "mobile": {
+              "top": "0px",
+              "right": "0px",
+              "bottom": "16px",
+              "left": "0px"
+            }
+          },
+          "mostPricingColBg": "#1f2937",
+          "mostPricingPadding": {
+            "desktop": {
+              "top": "32px",
+              "right": "32px",
+              "bottom": "32px",
+              "left": "32px"
+            },
+            "tablet": {
+              "top": "32px",
+              "right": "32px",
+              "bottom": "32px",
+              "left": "32px"
+            },
+            "mobile": {
+              "top": "32px",
+              "right": "32px",
+              "bottom": "32px",
+              "left": "32px"
+            }
+          },
+          "mostPricingBorderWidth": "1px",
+          "mostPricingBorderColor": "#c5baba26",
+          "pricingPopularTitleTypo": {
+            "fontFamily": "Manrope",
+            "fontCategory": "sans-serif",
+            "fontWeight": 700,
+            "fontSize": {
+              "desktop": 20,
+              "tablet": 20,
+              "mobile": 20
+            },
+            "fontStyle": "normal",
+            "textTransform": "none",
+            "textDecoration": "auto",
+            "lineHeight": "25px",
+            "letterSpace": "0px"
+          },
+          "mostPricingTitleColor": "#ffffff",
+          "mostCurrencyIconHeight": "48px",
+          "mostCurrencyIconColor": "#ffffff",
+          "mostPricingPriceTypo": {
+            "fontFamily": "Manrope",
+            "fontCategory": "sans-serif",
+            "fontWeight": 800,
+            "fontSize": {
+              "desktop": 48,
+              "tablet": 48,
+              "mobile": 48
+            },
+            "fontStyle": "normal",
+            "textTransform": "none",
+            "textDecoration": "auto",
+            "lineHeight": "40px",
+            "letterSpace": "0px"
+          },
+          "mostPricingPriceColor": "#ffffff",
+          "mostPeriodTypo": {
+            "fontFamily": "Manrope",
+            "fontCategory": "sans-serif",
+            "fontWeight": 300,
+            "fontSize": {
+              "desktop": 20,
+              "tablet": 20,
+              "mobile": 20
+            },
+            "fontStyle": "normal",
+            "textTransform": "none",
+            "textDecoration": "auto",
+            "lineHeight": "20px",
+            "letterSpace": "0px"
+          },
+          "mostPeriodColor": "#9ca3af",
+          "mostPeriodMargin": {
+            "desktop": {
+              "top": "25px",
+              "right": "0px",
+              "bottom": "0px",
+              "left": "4px"
+            },
+            "tablet": {
+              "top": "25px",
+              "right": "0px",
+              "bottom": "0px",
+              "left": "4px"
+            },
+            "mobile": {
+              "top": "25px",
+              "right": "0px",
+              "bottom": "0px",
+              "left": "4px"
+            }
+          },
+          "mostDesTypo": {
+            "fontFamily": "Manrope",
+            "fontCategory": "sans-serif",
+            "fontWeight": 300,
+            "fontSize": {
+              "desktop": 22,
+              "tablet": 22,
+              "mobile": 22
+            },
+            "fontStyle": "normal",
+            "textTransform": "none",
+            "textDecoration": "auto",
+            "lineHeight": "20px",
+            "letterSpace": "0px"
+          },
+          "mostDesColor": "#9ca3af",
+          "mostFeatureIconHeight": "30px",
+          "mostFeatureTypo": {
+            "fontFamily": "Manrope",
+            "fontCategory": "sans-serif",
+            "fontWeight": 300,
+            "fontSize": {
+              "desktop": 18,
+              "tablet": 18,
+              "mobile": 18
+            },
+            "fontStyle": "normal",
+            "textTransform": "none",
+            "textDecoration": "auto",
+            "lineHeight": "20px",
+            "letterSpace": "0px"
+          },
+          "mostFeatureColor": "#d1d5db",
+          "mostButtonRadius": {
+            "top": "8px",
+            "right": "8px",
+            "bottom": "8px",
+            "left": "8px"
+          },
+          "mostButtonPadding": {
+            "desktop": {
+              "top": "12px",
+              "right": "16px",
+              "bottom": "12px",
+              "left": "16px"
+            },
+            "tablet": {
+              "top": "12px",
+              "right": "16px",
+              "bottom": "12px",
+              "left": "16px"
+            },
+            "mobile": {
+              "top": "12px",
+              "right": "16px",
+              "bottom": "12px",
+              "left": "16px"
+            }
+          },
+          "mostButtonTextColor": "#ffffff",
+          "mostButtonTypo": {
+            "fontFamily": "Manrope",
+            "fontCategory": "sans-serif",
+            "fontWeight": 500,
+            "fontSize": {
+              "desktop": 16,
+              "tablet": 16,
+              "mobile": 16
+            },
+            "fontStyle": "normal",
+            "textTransform": "none",
+            "textDecoration": "auto",
+            "lineHeight": "20px",
+            "letterSpace": "0px"
+          },
+          "mostButtonBg": "#4f46e5",
+          "mostButtonHoverBg": "#4338ca",
+          "mostButtonHoverTextColor": "#ffffff",
+          "mostButtonBorder": {
+            "color": "#4b5563",
+            "width": "1px",
+            "style": "solid"
+          }
+        }
+      }
+    },
+    "align": {
+      "type": "string",
+      "default": "full"
+    }
+  },
+  "supports": {
+    "align": [
+      "wide",
+      "full"
+    ],
+    "html": false
+  },
+  "example": {
+    "attributes": {}
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./view.css",
+  "render": "file:./render.php",
+  "viewScript": "file:./view.js"
+}

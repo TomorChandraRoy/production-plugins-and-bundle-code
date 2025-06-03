@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Horizontal Pricing Table
- * Description: Display pricing plans in a clean, horizontal table layout.
+ * Description: Display pricing plans in a clean horizontal table layout
  * Version: 1.0.0
  * Author: bPlugins
  * Author URI: https://bplugins.com

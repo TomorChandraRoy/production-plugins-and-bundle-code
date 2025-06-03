@@ -8,6 +8,8 @@ export const MinimalPricingTable = ({ attributes, setAttributes }) => {
     return (
         <div className="pricing-container">
             <div className="pricing-wrapper">
+
+                {/* Header Content */}
                 <div className="pricing-header">
                     {isEditor
                         ?
@@ -23,16 +25,16 @@ export const MinimalPricingTable = ({ attributes, setAttributes }) => {
                         )
                         : (
                             <>
-                                <h1 className="pricing-h1">{title}</h1>
-                                <p className="pricing-p">{dec}</p>
+                                <RichText.Content tagName="h1" className="pricing-h1"  value={title} />
+                                <RichText.Content tagName="p" className="pricing-p"  value={dec} />
                             </>
                         )}
                 </div>
 
+                {/* Pricing Content */}
                 <div className="pricing-grid">
                     {
                         MinimalPriceCardData?.map((data, index) => ( 
-                        
                             <>
                                 <div key={index} className={`pricing-card pricing-card-${index} ${data?.highlighted && data?.highlightText ? "popular" : ""}`}>
                                     {/* hightlight */}
@@ -44,7 +46,8 @@ export const MinimalPricingTable = ({ attributes, setAttributes }) => {
                                                     <RichText className={`${data?.highlightText ? "popular-tag" : ""}`} tagName="div"
                                                         value={data?.highlightText || ""}
                                                         onChange={val => setAttributes({ MinimalPriceCardData: updateData(MinimalPriceCardData, val, index, 'highlightText') })}
-                                                        allowedFormats={['core/bold', 'core/italic', 'core/link', 'core/text-color']} />
+                                                        allowedFormats={['core/bold', 'core/italic', 'core/link', 'core/text-color']} 
+                                                    />
                                                 )
                                                 }
                                             </>
@@ -52,10 +55,13 @@ export const MinimalPricingTable = ({ attributes, setAttributes }) => {
                                         : (
                                             <>
                                                 {data?.highlighted && (
-                                                    <div className={`${data?.highlightText ? "popular-tag" : ""}`}>{data?.highlightText}</div>
+                                                    <RichText.Content tagName="div" className={`${data?.highlightText ? "popular-tag" : ""}`} value={data?.highlightText}/>
                                                 )}
                                             </>
-                                        )}
+                                        )
+                                    }
+
+                                    {/* Pricing table header Content */}
                                     <div className="card-header">
                                         {isEditor
                                             ?
@@ -70,7 +76,7 @@ export const MinimalPricingTable = ({ attributes, setAttributes }) => {
                                             )
                                             : (
                                                 <>
-                                                    <h3 className="card-h3">{data?.name}</h3>
+                                                  <RichText.Content className="card-h3" tagName="h3" value={data?.name}/>
                                                 </>
                                             )}
                                         <div className="price">
@@ -97,9 +103,9 @@ export const MinimalPricingTable = ({ attributes, setAttributes }) => {
                                                 )
                                                 : (
                                                     <>
-                                                        <span className="amount">{data?.currency}</span>
-                                                        <span className="amount">{data?.price}</span>
-                                                        <span className="period">{data?.period}</span>
+                                                        <RichText.Content className="amount" tagName="span" value={data?.currency}/>
+                                                        <RichText.Content className="amount" tagName="span" value={data?.price}/>
+                                                        <RichText.Content className="period" tagName="span" value={data?.period}/>
                                                     </>
                                                 )}
                                         </div>
@@ -128,11 +134,13 @@ export const MinimalPricingTable = ({ attributes, setAttributes }) => {
                                             )
                                             : (
                                                 <>
-                                                    <p className="description">{data?.description}</p>
+
+                                                    <RichText.Content className="description" tagName="p" value={data?.description}/>
+
                                                     {data?.buttonText && (
                                                         <a href={data?.buttonLink || '#'} className="link" target={data.buttonNewTab ? "_blank" : "_self"}
                                                         rel={data?.buttonNewTab ? "noopener noreferrer" : undefined} >
-                                                        <button className={`btn ${data?.highlighted || data?.id === true ? "btn-primary" : "btn-outline"}`}>{data?.buttonText}</button>
+                                                         <RichText.Content className={`btn ${data?.highlighted || data?.id === true ? "btn-primary" : "btn-outline"}`} tagName="button" value={data?.buttonText}/>
                                                         </a>
 
                                                     )}
@@ -140,6 +148,7 @@ export const MinimalPricingTable = ({ attributes, setAttributes }) => {
                                             )
                                         }
                                     </div>
+
                                     {/* features */}
                                     <div className="card-features">
                                         <ul className="card-ui">
@@ -164,7 +173,7 @@ export const MinimalPricingTable = ({ attributes, setAttributes }) => {
                                                                         {feature?.title && (
                                                                             <>
                                                                                 <div className={`icon icon-${index}`} dangerouslySetInnerHTML={{ __html: feature.icon }} />
-                                                                                <span className="card-feature">{feature.title}</span>
+                                                                                <RichText.Content tagName="span" value={feature.title} className="card-feature"/>
                                                                             </>
                                                                         )}
 

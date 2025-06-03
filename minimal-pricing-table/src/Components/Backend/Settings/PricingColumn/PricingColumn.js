@@ -10,7 +10,7 @@ export const PricingColumn = ({ attributes, setAttributes, arrKey, index }) => {
 
     const addFeature = (index) => {
         const updatedPlans = JSON.parse(JSON.stringify(MinimalPriceCardData));
-        const newFeature = { title: " New 5GB storage", icon: "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path fill=\"#53df55\" d=\"M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z\"/></svg>" };
+        const newFeature = { title: " New 5GB storage", icon: "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path fill=\"#53df55\" d=\"M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z\"/></svg>","iconColor":"#53df55" };
 
         updatedPlans[index].features.push(newFeature);
         setAttributes({ [arrKey]: updatedPlans });
@@ -60,7 +60,7 @@ export const PricingColumn = ({ attributes, setAttributes, arrKey, index }) => {
 
             <TextControl
                 value={MinimalPriceCardData[index]?.name.replace(/<[^>]*>/g, '')}
-                label={__("Card Name", "b-pricing-table")}
+                label={__("Name", "b-pricing-table")}
                 placeholder="Enter Card Name"
                 onChange={val => setAttributes({ MinimalPriceCardData: updateData(MinimalPriceCardData, val, index, 'name') })}
             />
@@ -176,7 +176,7 @@ export const PricingColumn = ({ attributes, setAttributes, arrKey, index }) => {
                 {/* New Features Added */}
                 <div className="button-wrapper">
                     <Button className="addButton" onClick={() => addFeature(index)}>
-                        Add Feature
+                       + Add Feature
                     </Button>
                 </div>
 

@@ -1191,11 +1191,15 @@ const MinimalPricingTable = ({
       });
     },
     allowedFormats: ['core/bold', 'core/italic', 'core/link', 'core/text-color']
-  })) : (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h1", {
-    className: "pricing-h1"
-  }, title), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", {
-    className: "pricing-p"
-  }, dec))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+  })) : (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.RichText.Content, {
+    tagName: "h1",
+    className: "pricing-h1",
+    value: title
+  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.RichText.Content, {
+    tagName: "p",
+    className: "pricing-p",
+    value: dec
+  }))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     className: "pricing-grid"
   }, MinimalPriceCardData?.map((data, index) => (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     key: index,
@@ -1208,9 +1212,11 @@ const MinimalPricingTable = ({
       MinimalPriceCardData: (0,_bpl_tools_utils_functions__WEBPACK_IMPORTED_MODULE_3__.updateData)(MinimalPriceCardData, val, index, 'highlightText')
     }),
     allowedFormats: ['core/bold', 'core/italic', 'core/link', 'core/text-color']
-  })) : (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, data?.highlighted && (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-    className: `${data?.highlightText ? "popular-tag" : ""}`
-  }, data?.highlightText)), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+  })) : (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, data?.highlighted && (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.RichText.Content, {
+    tagName: "div",
+    className: `${data?.highlightText ? "popular-tag" : ""}`,
+    value: data?.highlightText
+  })), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     className: "card-header"
   }, isEditor ? (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.RichText, {
     className: "card-h3",
@@ -1221,9 +1227,11 @@ const MinimalPricingTable = ({
       MinimalPriceCardData: (0,_bpl_tools_utils_functions__WEBPACK_IMPORTED_MODULE_3__.updateData)(MinimalPriceCardData, val, index, 'name')
     }),
     allowedFormats: ['core/bold', 'core/italic', 'core/link', 'core/text-color']
-  })) : (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", {
-    className: "card-h3"
-  }, data?.name)), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+  })) : (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.RichText.Content, {
+    className: "card-h3",
+    tagName: "h3",
+    value: data?.name
+  })), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     className: "price"
   }, isEditor ? (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.RichText, {
     className: "amount",
@@ -1252,13 +1260,19 @@ const MinimalPricingTable = ({
       MinimalPriceCardData: (0,_bpl_tools_utils_functions__WEBPACK_IMPORTED_MODULE_3__.updateData)(MinimalPriceCardData, val, index, 'period')
     }),
     allowedFormats: ['core/bold', 'core/italic', 'core/link', 'core/text-color']
-  })) : (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("span", {
-    className: "amount"
-  }, data?.currency), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("span", {
-    className: "amount"
-  }, data?.price), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("span", {
-    className: "period"
-  }, data?.period))), isEditor ? (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.RichText, {
+  })) : (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.RichText.Content, {
+    className: "amount",
+    tagName: "span",
+    value: data?.currency
+  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.RichText.Content, {
+    className: "amount",
+    tagName: "span",
+    value: data?.price
+  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.RichText.Content, {
+    className: "period",
+    tagName: "span",
+    value: data?.period
+  }))), isEditor ? (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.RichText, {
     className: "description",
     tagName: "p",
     value: data?.description,
@@ -1282,16 +1296,20 @@ const MinimalPricingTable = ({
       MinimalPriceCardData: (0,_bpl_tools_utils_functions__WEBPACK_IMPORTED_MODULE_3__.updateData)(MinimalPriceCardData, val, index, 'buttonText')
     }),
     allowedFormats: ['core/bold', 'core/italic', 'core/link', 'core/text-color']
-  }))) : (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", {
-    className: "description"
-  }, data?.description), data?.buttonText && (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
+  }))) : (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.RichText.Content, {
+    className: "description",
+    tagName: "p",
+    value: data?.description
+  }), data?.buttonText && (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
     href: data?.buttonLink || '#',
     className: "link",
     target: data.buttonNewTab ? "_blank" : "_self",
     rel: data?.buttonNewTab ? "noopener noreferrer" : undefined
-  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("button", {
-    className: `btn ${data?.highlighted || data?.id === true ? "btn-primary" : "btn-outline"}`
-  }, data?.buttonText)))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.RichText.Content, {
+    className: `btn ${data?.highlighted || data?.id === true ? "btn-primary" : "btn-outline"}`,
+    tagName: "button",
+    value: data?.buttonText
+  })))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     className: "card-features"
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("ul", {
     className: "card-ui"
@@ -1317,9 +1335,11 @@ const MinimalPricingTable = ({
     dangerouslySetInnerHTML: {
       __html: feature.icon
     }
-  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("span", {
+  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.RichText.Content, {
+    tagName: "span",
+    value: feature.title,
     className: "card-feature"
-  }, feature.title))))))))))))));
+  }))))))))))))));
 };
 
 /***/ }),

@@ -14,7 +14,6 @@ const Style = ({ attributes, id, }) => {
 	};
 
 
-
 	const { priceCardStyle, columns } = style;
 	const { priceCardBackgroundColor, cardPadding, cardRadius, borderWidth, borderColor, shadow, hightlightStyle, CardTitleTypo, cardTitleColor, cardMargin, CardAmountTypo, cardAmountColor, CardPeriodTypo, cardPeriodColor, cardPeriodMargin, CardDesTypo, cardDesColor, cardDesMargin, cardButtonTypo, cardButtonPadding, cardButtonRadius, cardButtonColor, cardButtonHightlightColor, cardButtonHightlightBackgroundColor, cardButtonHightlightBgHoverColor, cardButtonBGColor, cardButtonBGHoverColor, propularShadow, propularBorderColor, propularWidth, priceFeatures } = priceCardStyle;
 
@@ -29,6 +28,7 @@ const Style = ({ attributes, id, }) => {
 	const bBlocksPriceCardContent = `${mainSl} .bBlocksPriceCardContent`;
 	const pricingContainer = `${bBlocksPriceCardContent} .pricing-container`;
 	const pricingWrapper = `${pricingContainer} .pricing-wrapper`;
+
 
 	const pricingHeader = `${pricingWrapper} .pricing-header`;
 	const pricingH1 = `${pricingHeader} .pricing-h1`;
