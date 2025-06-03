@@ -13,7 +13,7 @@ const Style = ({ attributes, setAttributes,device }) => {
   return (
     <>
       <PanelBody className="bPlPanelBody" title={__("Pricing Table Style", "b-pricing-table")}
-        initialOpen={false}
+        initialOpen={true}
       >
         <Spacer />
         <SolidBackground
@@ -235,10 +235,10 @@ const Style = ({ attributes, setAttributes,device }) => {
 
       {/* Popular */}
       <PanelBody className="bPlPanelBody" title={__("Popular Pricing Table Style", "b-pricing-table")}
-        initialOpen={true}
+        initialOpen={false}
       >
       <Spacer />
-        <PanelBody className="bPlPanelBody" title={__("Popular Background Color", "b-pricing-table")}
+        {/* <PanelBody className="bPlPanelBody" title={__("Popular Background Color", "b-pricing-table")}
           initialOpen={false}
         >
           <Gradient
@@ -246,7 +246,12 @@ const Style = ({ attributes, setAttributes,device }) => {
             value={style?.popularBgColor} 
             onChange={(bgcolor) => { setAttributes({ style: updateData(style, bgcolor, "popularBgColor") });}}
           />
-        </PanelBody>
+        </PanelBody> */}
+          <Gradient
+            label={__("Background Color :")}
+            value={style?.popularBgColor} 
+            onChange={(bgcolor) => { setAttributes({ style: updateData(style, bgcolor, "popularBgColor") });}}
+          />
 
         <Spacer />
         <PanelRow>

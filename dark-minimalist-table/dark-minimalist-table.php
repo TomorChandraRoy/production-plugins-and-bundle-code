@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Dark Minimalist Table
- * Description: Short description of the pluginn
+ * Description: Display pricing plans clearly with flexible, user-friendly table layouts
  * Version: 1.0.0
  * Author: bPlugins
  * Author URI: https://bplugins.com

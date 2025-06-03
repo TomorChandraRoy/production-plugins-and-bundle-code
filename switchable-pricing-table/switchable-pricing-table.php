@@ -1,0 +1,1 @@
+Display smooth pricing table  with toggles for monthly and annual plans.

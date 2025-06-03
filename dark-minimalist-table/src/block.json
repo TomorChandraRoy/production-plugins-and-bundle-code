@@ -5,7 +5,7 @@
 	"version": "1.0.0",
 	"title": "Dark Minimalist Table",
 	"category": "widgets",
-	"description": "Short description of the Test Purpose",
+	"description": "Display pricing plans clearly with flexible, user-friendly table layouts",
 	"keywords": ["dark minimalist","dark minimalist table",	"pricing","price list","table"],
 	"textdomain": "b-pricing-table",
 	"attributes": {
@@ -270,7 +270,7 @@
           "desTypo": {
             "fontFamily": "Manrope",
             "fontCategory": "sans-serif",
-            "fontWeight": 600,
+            "fontWeight": 500,
             "fontSize": {
               "desktop": 16,
               "tablet": 16,
@@ -536,7 +536,7 @@
         "popularDesTypo": {
             "fontFamily": "Manrope",
             "fontCategory": "sans-serif",
-            "fontWeight": 600,
+            "fontWeight": 500,
             "fontSize": {
               "desktop": 16,
               "tablet": 16,
